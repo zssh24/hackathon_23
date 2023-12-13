@@ -89,9 +89,13 @@
 
 <!-- leaflet js -->
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<!-- turf.js from CDN -->
+<script src="https://unpkg.com/@turf/turf@latest"></script>
+
 <!-- geojson files -->
-<script src="./data/London.js"></script>
-<script src="./data/Manchester.js"></script>
+<!-- <script src="./data/London.js"></script>
+<script src="./data/Manchester.js"></script>  -->
+<script src="./data/16.Carlow.js"></script>
 
 <script>
 
@@ -184,8 +188,7 @@
 
     // External data for populating popupContent
     var externalData = {
-        'London': 'This is additional information for London.',
-        'Manchester': 'This is additional information for Manchester.'
+        'Carlow': 'Info for Carlow '
     };
 
     // Function to create polygons and bind popups dynamically
@@ -219,16 +222,10 @@
 
     // Create polygons and popups
     var polygonData = {
-        'London': londonJSON,
-        'Manchester': manchesterJSON
+        'Carlow': carlowJSON
     };
 
     var polygons = createPolygonsAndPopups(polygonData);
-
-
-
-
-
 
 
 
@@ -279,7 +276,7 @@
 
     //L.geoJSON(londonJSON).addTo(map)
     //L.geoJSON(manchesterJSON).addTo(map)
-
+    L.geoJSON(carlowJSON).addTo(map)
 
     /*===========================================================
                             LAYER CONTROL
