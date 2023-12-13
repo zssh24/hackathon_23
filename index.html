@@ -46,6 +46,7 @@
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <!-- geojson files -->
 <script src="./data/London.js"></script>
+<script src="./data/Manchester.js"></script>
 
 <script>
 
@@ -63,7 +64,7 @@
                             Databricks Queries
     ===========================================================*/
     
-    // Define queries, location of markers to be created and icon
+/*     // Define queries, location of markers to be created and icon
     const queries = [
         {
             name: 'Marker 1',
@@ -106,7 +107,7 @@
                 console.error(`Error fetching data for ${queryInfo.name}:`, error);
             }
         }
-    }
+    } */
 
 
     /*===========================================================
@@ -136,11 +137,62 @@
                             MARKER LAYER
     ===========================================================*/
 
+    // External data for populating popupContent
+    var externalData = {
+        'London': 'This is additional information for London.',
+        'Manchester': 'This is additional information for Manchester.'
+    };
+
+    // Function to create polygons and bind popups dynamically
+    function createPolygonsAndPopups(polygonData) {
+        var polygons = [];
+
+        Object.keys(polygonData).forEach(function (polygonName) {
+            var data = polygonData[polygonName];
+
+            console.log('Polygon Data:', data);  // Add this line for debugging
+
+            if (data.features && data.features.length > 0 && data.features[0].geometry && data.features[0].geometry.type === "Polygon") {
+                var popupContent = externalData[polygonName] || 'No additional information available';
+
+                var polygon = L.geoJSON(data, {
+                    onEachFeature: function (feature, layer) {
+                        // Bind popup
+                        layer.bindPopup(`${popupContent}`);
+                    }
+                });
+
+                // Add polygon to map
+                polygon.addTo(map);
+
+                polygons.push(polygon);
+            }
+        });
+
+        return polygons;
+    }
+
+    // Create polygons and popups
+    var polygonData = {
+        'London': londonJSON,
+        'Manchester': manchesterJSON
+    };
+
+    var polygons = createPolygonsAndPopups(polygonData);
+
+
+
+
+
+
+
+
+
+
     // layer groups
-    var london = L.marker([51.506, -0.125])
-    var manchester = L.marker([53.480, -2.244])
-    
-    var cities = L.layerGroup([london, manchester])
+    //var districts = L.layerGroup([london, manchester])
+
+
 
     /* 
     // We can add various markers, circles, polygons, popups etc
@@ -173,13 +225,15 @@
     marker.bindPopup("<b>Hello world!</b><br>I am a popup.").openPopup();
     circle.bindPopup("I am a circle.");
     polygon.bindPopup("I am a polygon.");
+    
     */
 
     /*===========================================================
                             GEOJSON LAYER
     ===========================================================*/
 
-    L.geoJSON(londonJSON).addTo(map)
+    //L.geoJSON(londonJSON).addTo(map)
+    //L.geoJSON(manchesterJSON).addTo(map)
 
 
     /*===========================================================
@@ -193,12 +247,12 @@
     };
 
     var overlayMaps = {
-        "Cities": cities
+        //"Districts": districts
     }; 
 
     // Layers control
     L.control.layers(baseMaps, overlayMaps, { collapsed: false }).addTo(map);
 
-    fetchDataAndCreateMarkers();
+    //fetchDataAndCreateMarkers();
 
 </script>

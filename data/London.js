@@ -3,7 +3,7 @@ var londonJSON = {
     "features": [
       {
         "type": "Feature",
-        "properties": {},
+        "properties": {popupContent: 'This is London.'},
         "geometry": {
           "type": "Polygon",
           "coordinates": [
