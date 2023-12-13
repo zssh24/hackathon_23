@@ -11,10 +11,12 @@ if (!token || !serverHostname || !httpPath) {
 }
 
 const queries = [
-  'SELECT * FROM prod.warehouse.brands LIMIT 2',
-  'SELECT * FROM prod.warehouse.demographics LIMIT 5',
-  // Add more queries as needed
-];
+  /*"SELECT local_authority_district_name AS District, product_type AS `Product type`, date_trunc('year', item_dispatched_at) AS Year, COUNT(*) AS `Number of products` FROM prod.warehouse.sales_events INNER JOIN prod.warehouse.delivery_addresses ON sales_events.delivery_address_sk = delivery_addresses.sk WHERE product_type <> 'STI Test Result Set' GROUP BY 1, 2, 3 ORDER BY District",*/
+
+  "SELECT local_authority_district_name AS District, COUNT(*) AS `Number of products` FROM prod.warehouse.sales_events INNER JOIN prod.warehouse.delivery_addresses ON sales_events.delivery_address_sk = delivery_addresses.sk WHERE product_type <> 'STI Test Result Set' GROUP BY 1 ORDER BY District"
+]
+
+
 
 const client = new DBSQLClient();
 const connectOptions = {
@@ -43,6 +45,10 @@ const executeQueries = async () => {
         // Print individual table for each query
         console.log(`Results for Query: ${query}`);
         console.table(result);
+
+        // Save results to a JSON file
+        const jsonResults = JSON.stringify(result, null, 2);
+        fs.writeFileSync('total_products.json', jsonResults);
       } catch (error) {
         console.log(`Error executing query: ${query}`, error);
       } finally {
