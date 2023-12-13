@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Where do we send our products?</title>
+    <title>Leaflet Map</title>
 
     <!-- leaflet css -->
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
@@ -14,12 +14,39 @@
         body {
             margin: 0;
             padding: 0;
+            font-family: Montreal, Helvetica, sans-serif;
+            color: black;
+            font-size: 1.5em; 
+        }
+
+        #title-container {
+            width: 100%;
+            text-align: center;
         }
 
         #title {
             width: 100%;
             height: 2vh;
+            color: #0ab0d9;
+            font-family: Helvetica, sans-serif;
+            font-size: 1.2em;            
+            margin-bottom: 25px;
         }
+
+        #subtitle {
+            color: #3d454f;
+            font-family: Helvetica, sans-serif;
+            font-size: 0.9em; 
+        }
+
+        #image {
+            max-width: 100%; 
+            height: auto; 
+            display: block;
+            margin: 0 auto; 
+            margin-bottom: 10px; 
+        }
+
     </style>
 
     <style>
@@ -32,9 +59,13 @@
 </head>
 
 <body>
+    <div id="title-container">
+        <img id="image" src="C:\Users\ElenaArdinesTomas\Documents\Paperwork\Mappify hackfest.jpg" alt="Image Alt Text">
+        <div id="title">Where do we send our products?</div>
+        
+    </div>
 
-
-    <div id="title"></div> Leaflet Map </div>
+    <div id="subtitle"> The map shows the orders dispatched to UK Districts or Irish counties </div>
 
     <!-- div element which holds the map -->
     <div id="map"></div>
