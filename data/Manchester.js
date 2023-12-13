@@ -1,9 +1,9 @@
 var manchesterJSON = {
-  "type": "FeatureCollection",
+  "type": "GeometryCollection",
   "features": [
       {
           "type": "Feature",
-          "properties": {popupContent: 'This is Manchester.'},
+          "properties": {'popupContent': 'This is Manchester.'},
           "geometry": {
               "coordinates": [
                   [
