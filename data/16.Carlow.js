@@ -57791,7 +57791,6 @@ var carlowJSON = {
                 "type": "Polygon"
             },
             "properties": {
-                "popupContent": 'This is Carlow.',
                 "OBJECTID": 16,
                 "CO_ID": "10000",
                 "ENGLISH": "CARLOW",
