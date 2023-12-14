@@ -118,7 +118,8 @@
 <!-- turf.js from CDN -->
 <script src="https://unpkg.com/@turf/turf@latest"></script>
 
-<!-- geojson files -->
+<!-- import js files for each district-->
+<!-- Ireland -->
 <script src="./data/1.Donegal.js"></script>
 <script src="./data/2.Limerick.js"></script>
 <script src="./data/3.Kildare.js"></script>
@@ -145,6 +146,383 @@
 <script src="./data/24.Galway.js"></script>
 <script src="./data/25.Tipperary.js"></script>
 <script src="./data/26.Clare.js"></script>
+<!-- UK -->
+<script src="./data/Aberdeen City.js"></script>
+<script src="./data/Aberdeenshire.js"></script>
+<script src="./data/Adur.js"></script>
+<script src="./data/Allerdale.js"></script>
+<script src="./data/Amber Valley.js"></script>
+<script src="./data/Angus.js"></script>
+<script src="./data/Antrim and Newtownabbey.js"></script>
+<script src="./data/Ards and North Down.js"></script>
+<script src="./data/Argyll and Bute.js"></script>
+<script src="./data/Armagh City, Banbridge and Craigavon.js"></script>
+<script src="./data/Arun.js"></script>
+<script src="./data/Ashfield.js"></script>
+<script src="./data/Ashford.js"></script>
+<script src="./data/Babergh.js"></script>
+<script src="./data/Barking and Dagenham.js"></script>
+<script src="./data/Barnet.js"></script>
+<script src="./data/Barnsley.js"></script>
+<script src="./data/Barrow-in-Furness.js"></script>
+<script src="./data/Basildon.js"></script>
+<script src="./data/Basingstoke and Deane.js"></script>
+<script src="./data/Bassetlaw.js"></script>
+<script src="./data/Bath and North East Somerset.js"></script>
+<script src="./data/Bedford.js"></script>
+<script src="./data/Belfast.js"></script>
+<script src="./data/Bexley.js"></script>
+<script src="./data/Birmingham.js"></script>
+<script src="./data/Blaby.js"></script>
+<script src="./data/Blackburn with Darwen.js"></script>
+<script src="./data/Blackpool.js"></script>
+<script src="./data/Blaenau Gwent.js"></script>
+<script src="./data/Bolsover.js"></script>
+<script src="./data/Bolton.js"></script>
+<script src="./data/Boston.js"></script>
+<script src="./data/Bournemouth, Christchurch and Poole.js"></script>
+<script src="./data/Bracknell Forest.js"></script>
+<script src="./data/Bradford.js"></script>
+<script src="./data/Braintree.js"></script>
+<script src="./data/Breckland.js"></script>
+<script src="./data/Brent.js"></script>
+<script src="./data/Brentwood.js"></script>
+<script src="./data/Bridgend.js"></script>
+<script src="./data/Brighton and Hove.js"></script>
+<script src="./data/Bristol, City of.js"></script>
+<script src="./data/Broadland.js"></script>
+<script src="./data/Bromley.js"></script>
+<script src="./data/Bromsgrove.js"></script>
+<script src="./data/Broxbourne.js"></script>
+<script src="./data/Broxtowe.js"></script>
+<script src="./data/Buckinghamshire.js"></script>
+<script src="./data/Burnley.js"></script>
+<script src="./data/Bury.js"></script>
+<script src="./data/Caerphilly.js"></script>
+<script src="./data/Calderdale.js"></script>
+<script src="./data/Cambridge.js"></script>
+<script src="./data/Camden.js"></script>
+<script src="./data/Cannock Chase.js"></script>
+<script src="./data/Canterbury.js"></script>
+<script src="./data/Cardiff.js"></script>
+<script src="./data/Carlisle.js"></script>
+<script src="./data/Carmarthenshire.js"></script>
+<script src="./data/Castle Point.js"></script>
+<script src="./data/Causeway Coast and Glens.js"></script>
+<script src="./data/Central Bedfordshire.js"></script>
+<script src="./data/Ceredigion.js"></script>
+<script src="./data/Charnwood.js"></script>
+<script src="./data/Chelmsford.js"></script>
+<script src="./data/Cheltenham.js"></script>
+<script src="./data/Cherwell.js"></script>
+<script src="./data/Cheshire East.js"></script>
+<script src="./data/Cheshire West and Chester.js"></script>
+<script src="./data/Chesterfield.js"></script>
+<script src="./data/Chichester.js"></script>
+<script src="./data/Chorley.js"></script>
+<script src="./data/City of Edinburgh.js"></script>
+<script src="./data/City of London.js"></script>
+<script src="./data/Clackmannanshire.js"></script>
+<script src="./data/Colchester.js"></script>
+<script src="./data/Conwy.js"></script>
+<script src="./data/Copeland.js"></script>
+<script src="./data/Cornwall.js"></script>
+<script src="./data/Cotswold.js"></script>
+<script src="./data/County Durham.js"></script>
+<script src="./data/Coventry.js"></script>
+<script src="./data/Craven.js"></script>
+<script src="./data/Crawley.js"></script>
+<script src="./data/Croydon.js"></script>
+<script src="./data/Dacorum.js"></script>
+<script src="./data/Darlington.js"></script>
+<script src="./data/Dartford.js"></script>
+<script src="./data/Denbighshire.js"></script>
+<script src="./data/Derby.js"></script>
+<script src="./data/Derbyshire Dales.js"></script>
+<script src="./data/Derry City and Strabane.js"></script>
+<script src="./data/Doncaster.js"></script>
+<script src="./data/Dorset.js"></script>
+<script src="./data/Dover.js"></script>
+<script src="./data/Dudley.js"></script>
+<script src="./data/Dumfries and Galloway.js"></script>
+<script src="./data/Dundee City.js"></script>
+<script src="./data/Ealing.js"></script>
+<script src="./data/East Ayrshire.js"></script>
+<script src="./data/East Cambridgeshire.js"></script>
+<script src="./data/East Devon.js"></script>
+<script src="./data/East Dunbartonshire.js"></script>
+<script src="./data/East Hampshire.js"></script>
+<script src="./data/East Hertfordshire.js"></script>
+<script src="./data/East Lindsey.js"></script>
+<script src="./data/East Lothian.js"></script>
+<script src="./data/East Renfrewshire.js"></script>
+<script src="./data/East Riding of Yorkshire.js"></script>
+<script src="./data/East Staffordshire.js"></script>
+<script src="./data/East Suffolk.js"></script>
+<script src="./data/Eastbourne.js"></script>
+<script src="./data/Eastleigh.js"></script>
+<script src="./data/Eden.js"></script>
+<script src="./data/Elmbridge.js"></script>
+<script src="./data/Enfield.js"></script>
+<script src="./data/Epping Forest.js"></script>
+<script src="./data/Epsom and Ewell.js"></script>
+<script src="./data/Erewash.js"></script>
+<script src="./data/Exeter.js"></script>
+<script src="./data/Falkirk.js"></script>
+<script src="./data/Fareham.js"></script>
+<script src="./data/Fenland.js"></script>
+<script src="./data/Fermanagh and Omagh.js"></script>
+<script src="./data/Fife.js"></script>
+<script src="./data/Flintshire.js"></script>
+<script src="./data/Folkestone and Hythe.js"></script>
+<script src="./data/Forest of Dean.js"></script>
+<script src="./data/Fylde.js"></script>
+<script src="./data/Gateshead.js"></script>
+<script src="./data/Gedling.js"></script>
+<script src="./data/Glasgow City.js"></script>
+<script src="./data/Gloucester.js"></script>
+<script src="./data/Gosport.js"></script>
+<script src="./data/Gravesham.js"></script>
+<script src="./data/Great Yarmouth.js"></script>
+<script src="./data/Greenwich.js"></script>
+<script src="./data/Guildford.js"></script>
+<script src="./data/Gwynedd.js"></script>
+<script src="./data/Hackney.js"></script>
+<script src="./data/Halton.js"></script>
+<script src="./data/Hambleton.js"></script>
+<script src="./data/Hammersmith and Fulham.js"></script>
+<script src="./data/Harborough.js"></script>
+<script src="./data/Haringey.js"></script>
+<script src="./data/Harlow.js"></script>
+<script src="./data/Harrogate.js"></script>
+<script src="./data/Harrow.js"></script>
+<script src="./data/Hart.js"></script>
+<script src="./data/Hartlepool.js"></script>
+<script src="./data/Hastings.js"></script>
+<script src="./data/Havant.js"></script>
+<script src="./data/Havering.js"></script>
+<script src="./data/Herefordshire, County of.js"></script>
+<script src="./data/Hertsmere.js"></script>
+<script src="./data/High Peak.js"></script>
+<script src="./data/Highland.js"></script>
+<script src="./data/Hillingdon.js"></script>
+<script src="./data/Hinckley and Bosworth.js"></script>
+<script src="./data/Horsham.js"></script>
+<script src="./data/Hounslow.js"></script>
+<script src="./data/Huntingdonshire.js"></script>
+<script src="./data/Hyndburn.js"></script>
+<script src="./data/Inverclyde.js"></script>
+<script src="./data/Ipswich.js"></script>
+<script src="./data/Isle of Anglesey.js"></script>
+<script src="./data/Isle of Wight.js"></script>
+<script src="./data/Isles of Scilly.js"></script>
+<script src="./data/Islington.js"></script>
+<script src="./data/Kensington and Chelsea.js"></script>
+<script src="./data/King's Lynn and West Norfolk.js"></script>
+<script src="./data/Kingston upon Hull, City of.js"></script>
+<script src="./data/Kingston upon Thames.js"></script>
+<script src="./data/Kirklees.js"></script>
+<script src="./data/Knowsley.js"></script>
+<script src="./data/Lambeth.js"></script>
+<script src="./data/Lancaster.js"></script>
+<script src="./data/Leeds.js"></script>
+<script src="./data/Leicester.js"></script>
+<script src="./data/Lewes.js"></script>
+<script src="./data/Lewisham.js"></script>
+<script src="./data/Lichfield.js"></script>
+<script src="./data/Lincoln.js"></script>
+<script src="./data/Lisburn and Castlereagh.js"></script>
+<script src="./data/Liverpool.js"></script>
+<script src="./data/Luton.js"></script>
+<script src="./data/Maidstone.js"></script>
+<script src="./data/Maldon.js"></script>
+<script src="./data/Malvern Hills.js"></script>
+<script src="./data/Manchester.js"></script>
+<script src="./data/Mansfield.js"></script>
+<script src="./data/Medway.js"></script>
+<script src="./data/Melton.js"></script>
+<script src="./data/Mendip.js"></script>
+<script src="./data/Merthyr Tydfil.js"></script>
+<script src="./data/Merton.js"></script>
+<script src="./data/Mid Devon.js"></script>
+<script src="./data/Mid Suffolk.js"></script>
+<script src="./data/Mid Sussex.js"></script>
+<script src="./data/Mid Ulster.js"></script>
+<script src="./data/Mid and East Antrim.js"></script>
+<script src="./data/Middlesbrough.js"></script>
+<script src="./data/Midlothian.js"></script>
+<script src="./data/Milton Keynes.js"></script>
+<script src="./data/Mole Valley.js"></script>
+<script src="./data/Monmouthshire.js"></script>
+<script src="./data/Moray.js"></script>
+<script src="./data/Na h-Eileanan Siar.js"></script>
+<script src="./data/Neath Port Talbot.js"></script>
+<script src="./data/New Forest.js"></script>
+<script src="./data/Newark and Sherwood.js"></script>
+<script src="./data/Newcastle upon Tyne.js"></script>
+<script src="./data/Newcastle-under-Lyme.js"></script>
+<script src="./data/Newham.js"></script>
+<script src="./data/Newport.js"></script>
+<script src="./data/Newry, Mourne and Down.js"></script>
+<script src="./data/North Ayrshire.js"></script>
+<script src="./data/North Devon.js"></script>
+<script src="./data/North East Derbyshire.js"></script>
+<script src="./data/North East Lincolnshire.js"></script>
+<script src="./data/North Hertfordshire.js"></script>
+<script src="./data/North Kesteven.js"></script>
+<script src="./data/North Lanarkshire.js"></script>
+<script src="./data/North Lincolnshire.js"></script>
+<script src="./data/North Norfolk.js"></script>
+<script src="./data/North Northamptonshire.js"></script>
+<script src="./data/North Somerset.js"></script>
+<script src="./data/North Tyneside.js"></script>
+<script src="./data/North Warwickshire.js"></script>
+<script src="./data/North West Leicestershire.js"></script>
+<script src="./data/Northumberland.js"></script>
+<script src="./data/Norwich.js"></script>
+<script src="./data/Nottingham.js"></script>
+<script src="./data/Nuneaton and Bedworth.js"></script>
+<script src="./data/Oadby and Wigston.js"></script>
+<script src="./data/Oldham.js"></script>
+<script src="./data/Orkney Islands.js"></script>
+<script src="./data/Oxford.js"></script>
+<script src="./data/Pembrokeshire.js"></script>
+<script src="./data/Pendle.js"></script>
+<script src="./data/Perth and Kinross.js"></script>
+<script src="./data/Peterborough.js"></script>
+<script src="./data/Plymouth.js"></script>
+<script src="./data/Portsmouth.js"></script>
+<script src="./data/Powys.js"></script>
+<script src="./data/Preston.js"></script>
+<script src="./data/Reading.js"></script>
+<script src="./data/Redbridge.js"></script>
+<script src="./data/Redcar and Cleveland.js"></script>
+<script src="./data/Redditch.js"></script>
+<script src="./data/Reigate and Banstead.js"></script>
+<script src="./data/Renfrewshire.js"></script>
+<script src="./data/Rhondda Cynon Taf.js"></script>
+<script src="./data/Ribble Valley.js"></script>
+<script src="./data/Richmond upon Thames.js"></script>
+<script src="./data/Richmondshire.js"></script>
+<script src="./data/Rochdale.js"></script>
+<script src="./data/Rochford.js"></script>
+<script src="./data/Rossendale.js"></script>
+<script src="./data/Rother.js"></script>
+<script src="./data/Rotherham.js"></script>
+<script src="./data/Rugby.js"></script>
+<script src="./data/Runnymede.js"></script>
+<script src="./data/Rushcliffe.js"></script>
+<script src="./data/Rushmoor.js"></script>
+<script src="./data/Rutland.js"></script>
+<script src="./data/Ryedale.js"></script>
+<script src="./data/Salford.js"></script>
+<script src="./data/Sandwell.js"></script>
+<script src="./data/Scarborough.js"></script>
+<script src="./data/Scottish Borders.js"></script>
+<script src="./data/Sedgemoor.js"></script>
+<script src="./data/Sefton.js"></script>
+<script src="./data/Selby.js"></script>
+<script src="./data/Sevenoaks.js"></script>
+<script src="./data/Sheffield.js"></script>
+<script src="./data/Shetland Islands.js"></script>
+<script src="./data/Shropshire.js"></script>
+<script src="./data/Slough.js"></script>
+<script src="./data/Solihull.js"></script>
+<script src="./data/Somerset West and Taunton.js"></script>
+<script src="./data/South Ayrshire.js"></script>
+<script src="./data/South Cambridgeshire.js"></script>
+<script src="./data/South Derbyshire.js"></script>
+<script src="./data/South Gloucestershire.js"></script>
+<script src="./data/South Hams.js"></script>
+<script src="./data/South Holland.js"></script>
+<script src="./data/South Kesteven.js"></script>
+<script src="./data/South Lakeland.js"></script>
+<script src="./data/South Lanarkshire.js"></script>
+<script src="./data/South Norfolk.js"></script>
+<script src="./data/South Oxfordshire.js"></script>
+<script src="./data/South Ribble.js"></script>
+<script src="./data/South Somerset.js"></script>
+<script src="./data/South Staffordshire.js"></script>
+<script src="./data/South Tyneside.js"></script>
+<script src="./data/Southampton.js"></script>
+<script src="./data/Southend-on-Sea.js"></script>
+<script src="./data/Southwark.js"></script>
+<script src="./data/Spelthorne.js"></script>
+<script src="./data/St Albans.js"></script>
+<script src="./data/St. Helens.js"></script>
+<script src="./data/Stafford.js"></script>
+<script src="./data/Staffordshire Moorlands.js"></script>
+<script src="./data/Stevenage.js"></script>
+<script src="./data/Stirling.js"></script>
+<script src="./data/Stockport.js"></script>
+<script src="./data/Stockton-on-Tees.js"></script>
+<script src="./data/Stoke-on-Trent.js"></script>
+<script src="./data/Stratford-on-Avon.js"></script>
+<script src="./data/Stroud.js"></script>
+<script src="./data/Sunderland.js"></script>
+<script src="./data/Surrey Heath.js"></script>
+<script src="./data/Sutton.js"></script>
+<script src="./data/Swale.js"></script>
+<script src="./data/Swansea.js"></script>
+<script src="./data/Swindon.js"></script>
+<script src="./data/Tameside.js"></script>
+<script src="./data/Tamworth.js"></script>
+<script src="./data/Tandridge.js"></script>
+<script src="./data/Teignbridge.js"></script>
+<script src="./data/Telford and Wrekin.js"></script>
+<script src="./data/Tendring.js"></script>
+<script src="./data/Test Valley.js"></script>
+<script src="./data/Tewkesbury.js"></script>
+<script src="./data/Thanet.js"></script>
+<script src="./data/Three Rivers.js"></script>
+<script src="./data/Thurrock.js"></script>
+<script src="./data/Tonbridge and Malling.js"></script>
+<script src="./data/Torbay.js"></script>
+<script src="./data/Torfaen.js"></script>
+<script src="./data/Torridge.js"></script>
+<script src="./data/Tower Hamlets.js"></script>
+<script src="./data/Trafford.js"></script>
+<script src="./data/Tunbridge Wells.js"></script>
+<script src="./data/Uttlesford.js"></script>
+<script src="./data/Vale of Glamorgan.js"></script>
+<script src="./data/Vale of White Horse.js"></script>
+<script src="./data/Wakefield.js"></script>
+<script src="./data/Walsall.js"></script>
+<script src="./data/Waltham Forest.js"></script>
+<script src="./data/Wandsworth.js"></script>
+<script src="./data/Warrington.js"></script>
+<script src="./data/Warwick.js"></script>
+<script src="./data/Watford.js"></script>
+<script src="./data/Waverley.js"></script>
+<script src="./data/Wealden.js"></script>
+<script src="./data/Welwyn Hatfield.js"></script>
+<script src="./data/West Berkshire.js"></script>
+<script src="./data/West Devon.js"></script>
+<script src="./data/West Dunbartonshire.js"></script>
+<script src="./data/West Lancashire.js"></script>
+<script src="./data/West Lindsey.js"></script>
+<script src="./data/West Lothian.js"></script>
+<script src="./data/West Northamptonshire.js"></script>
+<script src="./data/West Oxfordshire.js"></script>
+<script src="./data/West Suffolk.js"></script>
+<script src="./data/Westminster.js"></script>
+<script src="./data/Wigan.js"></script>
+<script src="./data/Wiltshire.js"></script>
+<script src="./data/Winchester.js"></script>
+<script src="./data/Windsor and Maidenhead.js"></script>
+<script src="./data/Wirral.js"></script>
+<script src="./data/Woking.js"></script>
+<script src="./data/Wokingham.js"></script>
+<script src="./data/Wolverhampton.js"></script>
+<script src="./data/Worcester.js"></script>
+<script src="./data/Worthing.js"></script>
+<script src="./data/Wrexham.js"></script>
+<script src="./data/Wychavon.js"></script>
+<script src="./data/Wyre Forest.js"></script>
+<script src="./data/Wyre.js"></script>
+<script src="./data/York.js"></script>
+
+
 
 <script>
 
@@ -263,6 +641,380 @@
         'Galway': galwayJSON,
         'Tipperary': tipperaryJSON,
         'Clare': clareJSON,
+        'Aberdeen': aberdeencityJSON,
+        'Aberdeenshire': aberdeenshireJSON,
+        'Adur': adurJSON,
+        'Allerdale': allerdaleJSON,
+        'Amber Valley': ambervalleyJSON,
+        'Angus': AngusJSON,
+        'Antrim and Newtownabbey': antrimandnewtownabbeyJSON,
+        'Ards and North Down': ardsandnorthdownJSON,
+        'Argyll and Bute': argyllandbuteJSON,
+        'Armagh City, Banbridge and Craigavon': armaghcity_banbridgeandcraigavonJSON,
+        'Arun': arunJSON,
+        'Ashfield': ashfieldJSON,
+        'Ashford': ashfordJSON,
+        'Babergh': baberghJSON,
+        'Barking and Dagenham': barkinganddagenhamJSON,
+        'Barnet': barnetJSON,
+        'Barnsley': barnsleyJSON,
+        'Barrow-in-Furness': barrow_in_furnessJSON,
+        'Basildon': basildonJSON,
+        'Basingstoke and Deane': basingstokeanddeaneJSON,
+        'Bassetlaw': bassetlawJSON,
+        'Bath and North East Somerset': bathandnortheastsomersetJSON,
+        'Bedford': bedfordJSON,
+        'Belfast': belfastJSON,
+        'Bexley': bexleyJSON,
+        'Birmingham': birminghamJSON,
+        'Blaby': blabyJSON,
+        'Blackburn with Darwen': blackburnwithdarwenJSON,
+        'Blackpool': BlackpoolJSON,
+        'Blaenau Gwent': BlaenauGwentJSON,
+        'Bolsover': BolsoverJSON,
+        'Bolton': BoltonJSON,
+        'Boston': BostonJSON,
+        'Bournemouth, Christchurch and Poole': BournemouthChristchurchandPooleJSON,
+        'Bracknell Forest': BracknellForestJSON,
+        'Bradford': BradfordJSON,
+        'Braintree': BraintreeJSON,
+        'Breckland': BrecklandJSON,
+        'Brent': BrentJSON,
+        'Brentwood': BrentwoodJSON,
+        'Bridgend': BridgendJSON,
+        'Brighton and Hove': BrightonandHoveJSON,
+        'Bristol, City of': Bristol_CityofJSON,
+        'Broadland': BroadlandJSON,
+        'Bromley': BromleyJSON,
+        'Bromsgrove': BromsgroveJSON,
+        'Broxbourne': BroxbourneJSON,
+        'Broxtowe': BroxtoweJSON,
+        'Buckinghamshire': BuckinghamshireJSON,
+        'Burnley': BurnleyJSON,
+        'Bury': BuryJSON,
+        'Caerphilly': CaerphillyJSON,
+        'Calderdale': CalderdaleJSON,
+        'Cambridge': CambridgeJSON,
+        'Camden': CamdenJSON,
+        'Cannock Chase': CannockChaseJSON,
+        'Canterbury': CanterburyJSON,
+        'Cardiff': CardiffJSON,
+        'Carlisle': CarlisleJSON,
+        'Carmarthenshire': CarmarthenshireJSON,
+        'Castle Point': CastlePointJSON,
+        'Causeway Coast and Glens': CausewayCoastandGlensJSON,
+        'Central Bedfordshire': CentralBedfordshireJSON,
+        'Ceredigion': CeredigionJSON,
+        'Charnwood': CharnwoodJSON,
+        'Chelmsford': ChelmsfordJSON,
+        'Cheltenham': CheltenhamJSON,
+        'Cherwell': CherwellJSON,
+        'Cheshire East': CheshireEastJSON,
+        'Cheshire West and Chester': CheshireWestandChesterJSON,
+        'Chesterfield': ChesterfieldJSON,
+        'Chichester': ChichesterJSON,
+        'Chorley': ChorleyJSON,
+        'City of Edinburgh': CityofEdinburghJSON,
+        'City of London': CityofLondonJSON,
+        'Clackmannanshire': ClackmannanshireJSON,
+        'Colchester': ColchesterJSON,
+        'Conwy': ConwyJSON,
+        'Copeland': CopelandJSON,
+        'Cornwall': CornwallJSON,
+        'Cotswold': CotswoldJSON,
+        'County Durham': CountyDurhamJSON,
+        'Coventry': CoventryJSON,
+        'Craven': CravenJSON,
+        'Crawley': CrawleyJSON,
+        'Croydon': CroydonJSON,
+        'Dacorum': DacorumJSON,
+        'Darlington': DarlingtonJSON,
+        'Dartford': DartfordJSON,
+        'Denbighshire': DenbighshireJSON,
+        'Derby': DerbyJSON,
+        'Derbyshire Dales': DerbyshireDalesJSON,
+        'Derry City and Strabane': DerryCityandStrabaneJSON,
+        'Doncaster': DoncasterJSON,
+        'Dorset': DorsetJSON,
+        'Dover': DoverJSON,
+        'Dudley': DudleyJSON,
+        'Dumfries and Galloway': DumfriesandGallowayJSON,
+        'Dundee City': DundeeCityJSON,
+        'Ealing': EalingJSON,
+        'East Ayrshire': EastAyrshireJSON,
+        'East Cambridgeshire': EastCambridgeshireJSON,
+        'East Devon': EastDevonJSON,
+        'East Dunbartonshire': EastDunbartonshireJSON,
+        'East Hampshire': EastHampshireJSON,
+        'East Hertfordshire': EastHertfordshireJSON,
+        'East Lindsey': EastLindseyJSON,
+        'East Lothian': EastLothianJSON,
+        'East Renfrewshire': EastRenfrewshireJSON,
+        'East Riding of Yorkshire': EastRidingofYorkshireJSON,
+        'East Staffordshire': EastStaffordshireJSON,
+        'East Suffolk': EastSuffolkJSON,
+        'Eastbourne': EastbourneJSON,
+        'Eastleigh': EastleighJSON,
+        'Eden': EdenJSON,
+        'Elmbridge': ElmbridgeJSON,
+        'Enfield': EnfieldJSON,
+        'Epping Forest': EppingForestJSON,
+        'Epsom and Ewell': EpsomandEwellJSON,
+        'Erewash': ErewashJSON,
+        'Exeter': ExeterJSON,
+        'Falkirk': FalkirkJSON,
+        'Fareham': FarehamJSON,
+        'Fenland': FenlandJSON,
+        'Fermanagh and Omagh': FermanaghandOmaghJSON,
+        'Fife': FifeJSON,
+        'Flintshire': FlintshireJSON,
+        'Folkestone and Hythe': FolkestoneandHytheJSON,
+        'Forest of Dean': ForestofDeanJSON,
+        'Fylde': FyldeJSON,
+        'Gateshead': GatesheadJSON,
+        'Gedling': GedlingJSON,
+        'Glasgow City': GlasgowCityJSON,
+        'Gloucester': GloucesterJSON,
+        'Gosport': GosportJSON,
+        'Gravesham': GraveshamJSON,
+        'Great Yarmouth': GreatYarmouthJSON,
+        'Greenwich': GreenwichJSON,
+        'Guildford': GuildfordJSON,
+        'Gwynedd': GwyneddJSON,
+        'Hackney': HackneyJSON,
+        'Halton': HaltonJSON,
+        'Hambleton': HambletonJSON,
+        'Hammersmith and Fulham': HammersmithandFulhamJSON,
+        'Harborough': HarboroughJSON,
+        'Haringey': HaringeyJSON,
+        'Harlow': HarlowJSON,
+        'Harrogate': HarrogateJSON,
+        'Harrow': HarrowJSON,
+        'Hart': HartJSON,
+        'Hartlepool': HartlepoolJSON,
+        'Hastings': HastingsJSON,
+        'Havant': HavantJSON,
+        'Havering': HaveringJSON,
+        'Herefordshire, County of': Herefordshire_CountyofJSON,
+        'Hertsmere': HertsmereJSON,
+        'High Peak': HighPeakJSON,
+        'Highland': HighlandJSON,
+        'Hillingdon': HillingdonJSON,
+        'Hinckley and Bosworth': HinckleyandBosworthJSON,
+        'Horsham': HorshamJSON,
+        'Hounslow': HounslowJSON,
+        'Huntingdonshire': HuntingdonshireJSON,
+        'Hyndburn': HyndburnJSON,
+        'Inverclyde': InverclydeJSON,
+        'Ipswich': IpswichJSON,
+        'Isle of Anglesey': IsleofAngleseyJSON,
+        'Isle of Wight': IsleofWightJSON,
+        'Isles of Scilly': IslesofScillyJSON,
+        'Islington': IslingtonJSON,
+        'Kensington and Chelsea': KensingtonandChelseaJSON,
+        'King\'s Lynn and West Norfolk': KingsLynnandWestNorfolkJSON,
+        'Kingston upon Hull, City of': KingstonuponHull_City ofJSON,
+        'Kingston upon Thames': KingstonuponThamesJSON,
+        'Kirklees': KirkleesJSON,
+        'Knowsley': KnowsleyJSON,
+        'Lambeth': LambethJSON,
+        'Lancaster': LancasterJSON,
+        'Leeds': LeedsJSON,
+        'Leicester': LeicesterJSON,
+        'Lewes': LewesJSON,
+        'Lewisham': LewishamJSON,
+        'Lichfield': LichfieldJSON,
+        'Lincoln': LincolnJSON,
+        'Lisburn and Castlereagh': LisburnandCastlereaghJSON,
+        'Liverpool': LiverpoolJSON,
+        'Luton': LutonJSON,
+        'Maidstone': MaidstoneJSON,
+        'Maldon': MaldonJSON,
+        'Malvern Hills': MalvernHillsJSON,
+        'Manchester': ManchesterJSON,
+        'Mansfield': MansfieldJSON,
+        'Medway': MedwayJSON,
+        'Melton': MeltonJSON,
+        'Mendip': MendipJSON,
+        'Merthyr Tydfil': MerthyrTydfilJSON,
+        'Merton': MertonJSON,
+        'Mid Devon': MidDevonJSON,
+        'Mid Suffolk': MidSuffolkJSON,
+        'Mid Sussex': MidSussexJSON,
+        'Mid Ulster': MidUlsterJSON,
+        'Mid and East Antrim': MidandEastAntrimJSON,
+        'Middlesbrough': MiddlesbroughJSON,
+        'Midlothian': MidlothianJSON,
+        'Milton Keynes': MiltonKeynesJSON,
+        'Mole Valley': MoleValleyJSON,
+        'Monmouthshire': MonmouthshireJSON,
+        'Moray': MorayJSON,
+        'Na h-Eileanan Siar': Nah_EileananSiarJSON,
+        'Neath Port Talbot': NeathPortTalbotJSON,
+        'New Forest': NewForestJSON,
+        'Newark and Sherwood': NewarkandSherwoodJSON,
+        'Newcastle upon Tyne': NewcastleuponTyneJSON,
+        'Newcastle-under-Lyme': Newcastle_under_LymeJSON,
+        'Newham': NewhamJSON,
+        'Newport': NewportJSON,
+        'Newry, Mourne and Down': Newry_MourneandDownJSON,
+        'North Ayrshire': NorthAyrshireJSON,
+        'North Devon': NorthDevonJSON,
+        'North East Derbyshire': NorthEastDerbyshireJSON,
+        'North East Lincolnshire': NorthEastLincolnshireJSON,
+        'North Hertfordshire': NorthHertfordshireJSON,
+        'North Kesteven': NorthKestevenJSON,
+        'North Lanarkshire': NorthLanarkshireJSON,
+        'North Lincolnshire': NorthLincolnshireJSON,
+        'North Norfolk': NorthNorfolkJSON,
+        'North Northamptonshire': NorthNorthamptonshireJSON,
+        'North Somerset': NorthSomersetJSON,
+        'North Tyneside': NorthTynesideJSON,
+        'North Warwickshire': NorthWarwickshireJSON,
+        'North West Leicestershire': NorthWestLeicestershireJSON,
+        'Northumberland': NorthumberlandJSON,
+        'Norwich': NorwichJSON,
+        'Nottingham': NottinghamJSON,
+        'Nuneaton and Bedworth': NuneatonandBedworthJSON,
+        'Oadby and Wigston': OadbyandWigstonJSON,
+        'Oldham': OldhamJSON,
+        'Orkney Islands': OrkneyIslandsJSON,
+        'Oxford': OxfordJSON,
+        'Pembrokeshire': PembrokeshireJSON,
+        'Pendle': PendleJSON,
+        'Perth and Kinross': PerthandKinrossJSON,
+        'Peterborough': PeterboroughJSON,
+        'Plymouth': PlymouthJSON,
+        'Portsmouth': PortsmouthJSON,
+        'Powys': PowysJSON,
+        'Preston': PrestonJSON,
+        'Reading': ReadingJSON,
+        'Redbridge': RedbridgeJSON,
+        'Redcar and Cleveland': RedcarandClevelandJSON,
+        'Redditch': RedditchJSON,
+        'Reigate and Banstead': ReigateandBansteadJSON,
+        'Renfrewshire': RenfrewshireJSON,
+        'Rhondda Cynon Taf': RhonddaCynonTafJSON,
+        'Ribble Valley': RibbleValleyJSON,
+        'Richmond upon Thames': RichmonduponThamesJSON,
+        'Richmondshire': RichmondshireJSON,
+        'Rochdale': RochdaleJSON,
+        'Rochford': RochfordJSON,
+        'Rossendale': RossendaleJSON,
+        'Rother': RotherJSON,
+        'Rotherham': RotherhamJSON,
+        'Rugby': RugbyJSON,
+        'Runnymede': RunnymedeJSON,
+        'Rushcliffe': RushcliffeJSON,
+        'Rushmoor': RushmoorJSON,
+        'Rutland': RutlandJSON,
+        'Ryedale': RyedaleJSON,
+        'Salford': SalfordJSON,
+        'Sandwell': SandwellJSON,
+        'Scarborough': ScarboroughJSON,
+        'Scottish Borders': ScottishBordersJSON,
+        'Sedgemoor': SedgemoorJSON,
+        'Sefton': SeftonJSON,
+        'Selby': SelbyJSON,
+        'Sevenoaks': SevenoaksJSON,
+        'Sheffield': SheffieldJSON,
+        'Shetland Islands': ShetlandIslandsJSON,
+        'Shropshire': ShropshireJSON,
+        'Slough': SloughJSON,
+        'Solihull': SolihullJSON,
+        'Somerset West and Taunton': SomersetWestandTauntonJSON,
+        'South Ayrshire': SouthAyrshireJSON,
+        'South Cambridgeshire': SouthCambridgeshireJSON,
+        'South Derbyshire': SouthDerbyshireJSON,
+        'South Gloucestershire': SouthGloucestershireJSON,
+        'South Hams': SouthHamsJSON,
+        'South Holland': SouthHollandJSON,
+        'South Kesteven': SouthKestevenJSON,
+        'South Lakeland': SouthLakelandJSON,
+        'South Lanarkshire': SouthLanarkshireJSON,
+        'South Norfolk': SouthNorfolkJSON,
+        'South Oxfordshire': SouthOxfordshireJSON,
+        'South Ribble': SouthRibbleJSON,
+        'South Somerset': SouthSomersetJSON,
+        'South Staffordshire': SouthStaffordshireJSON,
+        'South Tyneside': SouthTynesideJSON,
+        'Southampton': SouthamptonJSON,
+        'Southend-on-Sea': Southend_on_SeaJSON,
+        'Southwark': SouthwarkJSON,
+        'Spelthorne': SpelthorneJSON,
+        'St Albans': StAlbansJSON,
+        'St. Helens': StHelensJSON,
+        'Stafford': StaffordJSON,
+        'Staffordshire Moorlands': StaffordshireMoorlandsJSON,
+        'Stevenage': StevenageJSON,
+        'Stirling': StirlingJSON,
+        'Stockport': StockportJSON,
+        'Stockton-on-Tees': Stockton_on_TeesJSON,
+        'Stoke-on-Trent': Stoke_on_TrentJSON,
+        'Stratford-on-Avon': Stratford_on_AvonJSON,
+        'Stroud': StroudJSON,
+        'Sunderland': SunderlandJSON,
+        'Surrey Heath': SurreyHeathJSON,
+        'Sutton': SuttonJSON,
+        'Swale': SwaleJSON,
+        'Swansea': SwanseaJSON,
+        'Swindon': SwindonJSON,
+        'Tameside': TamesideJSON,
+        'Tamworth': TamworthJSON,
+        'Tandridge': TandridgeJSON,
+        'Teignbridge': TeignbridgeJSON,
+        'Telford and Wrekin': TelfordandWrekinJSON,
+        'Tendring': TendringJSON,
+        'Test Valley': TestValleyJSON,
+        'Tewkesbury': TewkesburyJSON,
+        'Thanet': ThanetJSON,
+        'Three Rivers': ThreeRiversJSON,
+        'Thurrock': ThurrockJSON,
+        'Tonbridge and Malling': TonbridgeandMallingJSON,
+        'Torbay': TorbayJSON,
+        'Torfaen': TorfaenJSON,
+        'Torridge': TorridgeJSON,
+        'Tower Hamlets': TowerHamletsJSON,
+        'Trafford': TraffordJSON,
+        'Tunbridge Wells': TunbridgeWellsJSON,
+        'Uttlesford': UttlesfordJSON,
+        'Vale of Glamorgan': ValeofGlamorganJSON,
+        'Vale of White Horse': ValeofWhiteHorseJSON,
+        'Wakefield': WakefieldJSON,
+        'Walsall': WalsallJSON,
+        'Waltham Forest': WalthamForestJSON,
+        'Wandsworth': WandsworthJSON,
+        'Warrington': WarringtonJSON,
+        'Warwick': WarwickJSON,
+        'Watford': WatfordJSON,
+        'Waverley': WaverleyJSON,
+        'Wealden': WealdenJSON,
+        'Welwyn Hatfield': WelwynHatfieldJSON,
+        'West Berkshire': WestBerkshireJSON,
+        'West Devon': WestDevonJSON,
+        'West Dunbartonshire': WestDunbartonshireJSON,
+        'West Lancashire': WestLancashireJSON,
+        'West Lindsey': WestLindseyJSON,
+        'West Lothian': WestLothianJSON,
+        'West Northamptonshire': WestNorthamptonshireJSON,
+        'West Oxfordshire': WestOxfordshireJSON,
+        'West Suffolk': WestSuffolkJSON,
+        'Westminster': WestminsterJSON,
+        'Wigan': WiganJSON,
+        'Wiltshire': WiltshireJSON,
+        'Winchester': WinchesterJSON,
+        'Windsor and Maidenhead': WindsorandMaidenheadJSON,
+        'Wirral': WirralJSON,
+        'Woking': WokingJSON,
+        'Wokingham': WokinghamJSON,
+        'Wolverhampton': WolverhamptonJSON,
+        'Worcester': WorcesterJSON,
+        'Worthing': WorthingJSON,
+        'Wrexham': WrexhamJSON,
+        'Wychavon': WychavonJSON,
+        'Wyre Forest': WyreForestJSON,
+        'Wyre': WyreJSON,
+        'York': YorkJSON
     };
 
     var polygons = createPolygonsAndPopups(polygonData);
