@@ -121,7 +121,32 @@
 <!-- geojson files -->
 <!-- <script src="./data/London.js"></script>
 <script src="./data/Manchester.js"></script>  -->
+<script src="./data/1.Donegal.js"></script>
+<script src="./data/2.Limerick.js"></script>
+<script src="./data/3.Kildare.js"></script>
+<script src="./data/4.Waterford.js"></script>
+<script src="./data/5.Dublin.js"></script>
+<script src="./data/6.Westmeath.js"></script>
+<script src="./data/7.Monaghan.js"></script>
+<script src="./data/8.Wicklow.js"></script>
+<script src="./data/9.Cork.js"></script>
+<script src="./data/10.Kerry.js"></script>
+<script src="./data/11.Roscommon.js"></script>
+<script src="./data/12.Wexford.js"></script>
+<script src="./data/13.Longford.js"></script>
+<script src="./data/14.Meath.js"></script>
+<script src="./data/15.Cavan.js"></script>
 <script src="./data/16.Carlow.js"></script>
+<script src="./data/17.Mayo.js"></script>
+<script src="./data/18.Louth.js"></script>
+<script src="./data/19.Sligo.js"></script>
+<script src="./data/20.Leitrim.js"></script>
+<script src="./data/21.Kilkenny.js"></script>
+<script src="./data/22.Offaly.js"></script>
+<script src="./data/23.Laois.js"></script>
+<script src="./data/24.Galway.js"></script>
+<script src="./data/25.Tipperary.js"></script>
+<script src="./data/26.Clare.js"></script>
 
 <script>
 
@@ -131,58 +156,6 @@
     
     // initialise the map and set its view to a geographical location (coordinates) and zoom level
     var map = L.map('map').setView([54.217, -4.558], 6);
-
-
-
-
-    /*===========================================================
-                            Databricks Queries
-    ===========================================================*/
-    
-/*     // Define queries, location of markers to be created and icon
-    const queries = [
-        {
-            name: 'Marker 1',
-            query: 'SELECT * FROM prod.warehouse.brands LIMIT 10',
-            marker: { latitude: 52.468926, longitude: -1.888867, icon: 'img/red_marker.png' },
-        }
-    ];
-
-    // define function to fetch data and create markers
-    async function fetchDataAndCreateMarkers() {
-        for (const queryInfo of queries) {
-            try {
-                const response = await fetch('https://dbc-25dae16e-9b76.cloud.databricks.com/sql/1.0/endpoints/6326b79d23570977', {
-                    method: 'POST',
-                    headers: {
-                        'Authorization': 'Bearer dapi3509b026e18ba37790d3598c5007d9b5',
-                        'Content-Type': 'application/json'
-                    },
-                    body: JSON.stringify({
-                        language: 'sql',
-                        query: queryInfo.query,
-                        context: {
-                            'warehouse_id': '6326b79d23570977',
-                            'catalog': 'prod',
-                            'schema': 'warehouse'
-                        }
-                    }),
-                });
-
-                const data = await response.json();
-                console.log(data);
-
-                // Process data and create markers
-                const { latitude, longitude } = queryInfo.marker;
-                const marker = L.marker([latitude, longitude], { icon: L.icon({ iconUrl: queryInfo.marker.icon }) })
-                    .bindPopup(`<b>${queryInfo.name}</b><br>${JSON.stringify(data)}`);
-
-                marker.addTo(map);
-            } catch (error) {
-                console.error(`Error fetching data for ${queryInfo.name}:`, error);
-            }
-        }
-    } */
 
 
     /*===========================================================
@@ -212,22 +185,40 @@
                             MARKER LAYER
     ===========================================================*/
 
-    // External data for populating popupContent
-    var externalData = {
-        'Carlow': 'Info for Carlow '
-    };
+    // Function to fetch external data asynchronously
+    async function fetchExternalData() {
+        try {
+            const response = await fetch('total_products.json');
+            const data = await response.json();
+            return data;
+        } catch (error) {
+            console.error('Error fetching external data:', error);
+            return null;
+        }
+    }
 
     // Function to create polygons and bind popups dynamically
-    function createPolygonsAndPopups(polygonData) {
+    async function createPolygonsAndPopups(polygonData) {
         var polygons = [];
 
-        Object.keys(polygonData).forEach(function (polygonName) {
+        // Fetch external data
+        const externalData = await fetchExternalData();
+
+        if (!externalData) {
+            console.error('External data not available. Exiting function.');
+            return polygons;
+        }
+
+        polygonData.forEach(function (polygon) {
+            var polygonName = polygon.District;
             var data = polygonData[polygonName];
 
             console.log('Polygon Data:', data);  // Add this line for debugging
 
             if (data.features && data.features.length > 0 && data.features[0].geometry && data.features[0].geometry.type === "Polygon") {
-                var popupContent = externalData[polygonName] || 'No additional information available';
+                var districtData = externalData.find(item => item.District === polygonName);
+                var orderQuantity = districtData ? districtData["Number of products"] : 0;
+                var popupContent = `District: ${polygonName}<br>Total Order Quantity: ${orderQuantity}`;
 
                 var polygon = L.geoJSON(data, {
                     onEachFeature: function (feature, layer) {
@@ -248,7 +239,32 @@
 
     // Create polygons and popups
     var polygonData = {
-        'Carlow': carlowJSON
+        'Donegal': donegalJSON,
+        'Limerick': limerickJSON,
+        'Kildare': kildareJSON,
+        'Waterford': waterfordJSON,
+        'Dublin': dublinJSON,
+        'Westmeath': westmeathJSON,
+        'Monaghan': monaghanJSON,
+        'Wicklow': wicklowJSON,
+        'Cork': corkJSON,
+        'Kerry': kerryJSON,
+        'Roscommon': roscommonJSON,
+        'Wexford': wexfordJSON,
+        'Longford': longfordJSON,
+        'Meath': meathJSON,
+        'Cavan': cavanJSON,
+        'Carlow': carlowJSON,
+        'Mayo': mayoJSON,
+        'Louth': louthJSON,
+        'Sligo': sligoJSON,
+        'Leitrim': leitrimJSON,
+        'Kilkenny': kilkennyJSON,
+        'Offaly': offalyJSON,
+        'Laois': laoisJSON,
+        'Galway': galwayJSON,
+        'Tipperary': tipperaryJSON,
+        'Clare': clareJSON,
     };
 
     var polygons = createPolygonsAndPopups(polygonData);
