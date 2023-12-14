@@ -1,4 +1,4 @@
-var BrentwoodJSON = {
+var brentwoodJSON = {
   "type": "FeatureCollection",
   "features": [
     {

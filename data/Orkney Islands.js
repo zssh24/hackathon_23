@@ -1,4 +1,4 @@
-var Orkney IslandsJSON = {
+var orkneyislandsJSON = {
   "type": "FeatureCollection",
   "features": [
     {

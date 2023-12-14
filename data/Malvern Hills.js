@@ -1,4 +1,4 @@
-var Malvern HillsJSON = {
+var malvernhillsJSON = {
   "type": "FeatureCollection",
   "features": [
     {

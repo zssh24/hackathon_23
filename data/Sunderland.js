@@ -1,4 +1,4 @@
-var SunderlandJSON = {
+var sunderlandJSON = {
   "type": "FeatureCollection",
   "features": [
     {

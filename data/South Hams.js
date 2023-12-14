@@ -1,4 +1,4 @@
-var South HamsJSON = {
+var southhamsJSON = {
   "type": "FeatureCollection",
   "features": [
     {

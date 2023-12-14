@@ -1,4 +1,4 @@
-var WiganJSON = {
+var wiganJSON = {
   "type": "FeatureCollection",
   "features": [
     {

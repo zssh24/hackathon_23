@@ -1,4 +1,4 @@
-var BroxbourneJSON = {
+var broxbourneJSON = {
   "type": "FeatureCollection",
   "features": [
     {

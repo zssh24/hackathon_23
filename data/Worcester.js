@@ -1,4 +1,4 @@
-var WorcesterJSON = {
+var worcesterJSON = {
   "type": "FeatureCollection",
   "features": [
     {

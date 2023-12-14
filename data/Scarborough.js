@@ -1,4 +1,4 @@
-var ScarboroughJSON = {
+var scarboroughJSON = {
   "type": "FeatureCollection",
   "features": [
     {

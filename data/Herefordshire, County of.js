@@ -1,4 +1,4 @@
-var Herefordshire, County ofJSON = {
+var herefordshirecountyofJSON = {
   "type": "FeatureCollection",
   "features": [
     {

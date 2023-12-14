@@ -1,4 +1,4 @@
-var LewesJSON = {
+var lewesJSON = {
   "type": "FeatureCollection",
   "features": [
     {

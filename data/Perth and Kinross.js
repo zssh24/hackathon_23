@@ -1,4 +1,4 @@
-var Perth and KinrossJSON = {
+var perthandkinrossJSON = {
   "type": "FeatureCollection",
   "features": [
     {

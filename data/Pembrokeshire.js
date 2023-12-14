@@ -1,4 +1,4 @@
-var PembrokeshireJSON = {
+var pembrokeshireJSON = {
   "type": "FeatureCollection",
   "features": [
     {

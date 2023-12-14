@@ -1,4 +1,4 @@
-var StevenageJSON = {
+var stevenageJSON = {
   "type": "FeatureCollection",
   "features": [
     {

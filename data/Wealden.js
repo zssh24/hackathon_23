@@ -1,4 +1,4 @@
-var WealdenJSON = {
+var wealdenJSON = {
   "type": "FeatureCollection",
   "features": [
     {

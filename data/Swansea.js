@@ -1,4 +1,4 @@
-var SwanseaJSON = {
+var swanseaJSON = {
   "type": "FeatureCollection",
   "features": [
     {

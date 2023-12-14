@@ -1,4 +1,4 @@
-var Derbyshire DalesJSON = {
+var derbyshiredalesJSON = {
   "type": "FeatureCollection",
   "features": [
     {

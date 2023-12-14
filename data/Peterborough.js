@@ -1,4 +1,4 @@
-var PeterboroughJSON = {
+var peterboroughJSON = {
   "type": "FeatureCollection",
   "features": [
     {

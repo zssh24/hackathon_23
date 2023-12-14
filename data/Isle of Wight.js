@@ -1,4 +1,4 @@
-var Isle of WightJSON = {
+var isleofwightJSON = {
   "type": "FeatureCollection",
   "features": [
     {

@@ -1,4 +1,4 @@
-var InverclydeJSON = {
+var inverclydeJSON = {
   "type": "FeatureCollection",
   "features": [
     {

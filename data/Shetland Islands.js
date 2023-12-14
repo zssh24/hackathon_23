@@ -1,4 +1,4 @@
-var Shetland IslandsJSON = {
+var shetlandislandsJSON = {
   "type": "FeatureCollection",
   "features": [
     {

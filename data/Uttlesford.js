@@ -1,4 +1,4 @@
-var UttlesfordJSON = {
+var uttlesfordJSON = {
   "type": "FeatureCollection",
   "features": [
     {

@@ -1,4 +1,4 @@
-var RotherhamJSON = {
+var rotherhamJSON = {
   "type": "FeatureCollection",
   "features": [
     {

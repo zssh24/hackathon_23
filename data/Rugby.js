@@ -1,4 +1,4 @@
-var RugbyJSON = {
+var rugbyJSON = {
   "type": "FeatureCollection",
   "features": [
     {

@@ -1,4 +1,4 @@
-var Na h-Eileanan SiarJSON = {
+var mah_eileanansiarJSON = {
   "type": "FeatureCollection",
   "features": [
     {

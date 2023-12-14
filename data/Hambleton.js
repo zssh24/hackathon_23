@@ -1,4 +1,4 @@
-var HambletonJSON = {
+var hambletonJSON = {
   "type": "FeatureCollection",
   "features": [
     {

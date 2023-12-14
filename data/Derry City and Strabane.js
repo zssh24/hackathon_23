@@ -1,4 +1,4 @@
-var Derry City and StrabaneJSON = {
+var derrycityandstrabaneJSON = {
   "type": "FeatureCollection",
   "features": [
     {

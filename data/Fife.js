@@ -1,4 +1,4 @@
-var FifeJSON = {
+var fifeJSON = {
   "type": "FeatureCollection",
   "features": [
     {

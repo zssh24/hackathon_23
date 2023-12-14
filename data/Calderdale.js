@@ -1,4 +1,4 @@
-var CalderdaleJSON = {
+var calderdaleJSON = {
   "type": "FeatureCollection",
   "features": [
     {

@@ -1,4 +1,4 @@
-var SedgemoorJSON = {
+var sedgemoorJSON = {
   "type": "FeatureCollection",
   "features": [
     {

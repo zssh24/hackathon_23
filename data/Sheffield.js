@@ -1,4 +1,4 @@
-var SheffieldJSON = {
+var sheffieldJSON = {
   "type": "FeatureCollection",
   "features": [
     {

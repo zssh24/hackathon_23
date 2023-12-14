@@ -1,4 +1,4 @@
-var Windsor and MaidenheadJSON = {
+var windsorandmaidenheadJSON = {
   "type": "FeatureCollection",
   "features": [
     {

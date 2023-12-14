@@ -1,4 +1,4 @@
-var BrecklandJSON = {
+var brecklandJSON = {
   "type": "FeatureCollection",
   "features": [
     {

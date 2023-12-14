@@ -1,4 +1,4 @@
-var EalingJSON = {
+var ealingJSON = {
   "type": "FeatureCollection",
   "features": [
     {

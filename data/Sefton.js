@@ -1,4 +1,4 @@
-var SeftonJSON = {
+var seftonJSON = {
   "type": "FeatureCollection",
   "features": [
     {

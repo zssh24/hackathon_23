@@ -1,4 +1,4 @@
-var Bournemouth, Christchurch and PooleJSON = {
+var bournemouthchristchurchpooleJSON = {
   "type": "FeatureCollection",
   "features": [
     {

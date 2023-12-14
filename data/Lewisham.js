@@ -1,4 +1,4 @@
-var LewishamJSON = {
+var lewishamJSON = {
   "type": "FeatureCollection",
   "features": [
     {

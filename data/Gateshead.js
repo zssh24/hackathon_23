@@ -1,4 +1,4 @@
-var GatesheadJSON = {
+var gatesheadJSON = {
   "type": "FeatureCollection",
   "features": [
     {

@@ -1,4 +1,4 @@
-var LeedsJSON = {
+var leedsJSON = {
   "type": "FeatureCollection",
   "features": [
     {

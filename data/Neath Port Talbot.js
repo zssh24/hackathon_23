@@ -1,4 +1,4 @@
-var Neath Port TalbotJSON = {
+var neathporttalbotJSON = {
   "type": "FeatureCollection",
   "features": [
     {

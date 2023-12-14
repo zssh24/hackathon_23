@@ -1,4 +1,4 @@
-var Kingston upon Hull, City ofJSON = {
+var kingstonuponhullcityofJSON = {
   "type": "FeatureCollection",
   "features": [
     {

@@ -1,4 +1,4 @@
-var GuildfordJSON = {
+var guildfordJSON = {
   "type": "FeatureCollection",
   "features": [
     {

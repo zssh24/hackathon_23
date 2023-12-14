@@ -1,4 +1,4 @@
-var RossendaleJSON = {
+var rossendaleJSON = {
   "type": "FeatureCollection",
   "features": [
     {

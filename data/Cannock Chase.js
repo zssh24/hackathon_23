@@ -1,4 +1,4 @@
-var Cannock ChaseJSON = {
+var cannockchaseJSON = {
   "type": "FeatureCollection",
   "features": [
     {

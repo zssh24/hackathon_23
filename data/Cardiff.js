@@ -1,4 +1,4 @@
-var CardiffJSON = {
+var cardiffJSON = {
   "type": "FeatureCollection",
   "features": [
     {

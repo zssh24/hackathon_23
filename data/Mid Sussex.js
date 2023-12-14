@@ -1,4 +1,4 @@
-var Mid SussexJSON = {
+var midsussexJSON = {
   "type": "FeatureCollection",
   "features": [
     {

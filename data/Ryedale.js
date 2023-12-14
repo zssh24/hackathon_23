@@ -1,4 +1,4 @@
-var RyedaleJSON = {
+var ryedaleJSON = {
   "type": "FeatureCollection",
   "features": [
     {

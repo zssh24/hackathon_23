@@ -1,4 +1,4 @@
-var RochfordJSON = {
+var rochfordJSON = {
   "type": "FeatureCollection",
   "features": [
     {

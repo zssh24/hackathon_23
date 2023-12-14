@@ -1,4 +1,4 @@
-var CotswoldJSON = {
+var cotswoldJSON = {
   "type": "FeatureCollection",
   "features": [
     {

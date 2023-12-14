@@ -1,4 +1,4 @@
-var FenlandJSON = {
+var fenlandJSON = {
   "type": "FeatureCollection",
   "features": [
     {

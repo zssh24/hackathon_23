@@ -1,4 +1,4 @@
-var King's Lynn and West NorfolkJSON = {
+var kingslynnandwestnorfolkJSON = {
   "type": "FeatureCollection",
   "features": [
     {

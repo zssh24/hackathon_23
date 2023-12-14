@@ -1,4 +1,4 @@
-var ElmbridgeJSON = {
+var elmbridgeJSON = {
   "type": "FeatureCollection",
   "features": [
     {

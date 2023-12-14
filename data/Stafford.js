@@ -1,4 +1,4 @@
-var StaffordJSON = {
+var staffordJSON = {
   "type": "FeatureCollection",
   "features": [
     {

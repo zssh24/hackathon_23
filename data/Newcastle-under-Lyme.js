@@ -1,4 +1,4 @@
-var Newcastle-under-LymeJSON = {
+var newcastle_under_lymeJSON = {
   "type": "FeatureCollection",
   "features": [
     {

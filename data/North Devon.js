@@ -1,4 +1,4 @@
-var North DevonJSON = {
+var northdevonJSON = {
   "type": "FeatureCollection",
   "features": [
     {

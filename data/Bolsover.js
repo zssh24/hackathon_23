@@ -1,4 +1,4 @@
-var BolsoverJSON = {
+var bolsoverJSON = {
   "type": "FeatureCollection",
   "features": [
     {

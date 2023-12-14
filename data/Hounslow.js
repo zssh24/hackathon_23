@@ -1,4 +1,4 @@
-var HounslowJSON = {
+var hounslowJSON = {
   "type": "FeatureCollection",
   "features": [
     {

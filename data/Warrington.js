@@ -1,4 +1,4 @@
-var WarringtonJSON = {
+var warringtonJSON = {
   "type": "FeatureCollection",
   "features": [
     {

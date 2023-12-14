@@ -1,4 +1,4 @@
-var GloucesterJSON = {
+var gloucesterJSON = {
   "type": "FeatureCollection",
   "features": [
     {

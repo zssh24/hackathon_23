@@ -1,4 +1,4 @@
-var StroudJSON = {
+var stroudJSON = {
   "type": "FeatureCollection",
   "features": [
     {

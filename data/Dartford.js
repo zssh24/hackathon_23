@@ -1,4 +1,4 @@
-var DartfordJSON = {
+var dartfordJSON = {
   "type": "FeatureCollection",
   "features": [
     {

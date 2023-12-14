@@ -1,4 +1,4 @@
-var Rhondda Cynon TafJSON = {
+var rhonddacynontafJSON = {
   "type": "FeatureCollection",
   "features": [
     {

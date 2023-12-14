@@ -1,4 +1,4 @@
-var North SomersetJSON = {
+var northsomersetJSON = {
   "type": "FeatureCollection",
   "features": [
     {

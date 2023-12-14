@@ -1,4 +1,4 @@
-var SandwellJSON = {
+var sandwellJSON = {
   "type": "FeatureCollection",
   "features": [
     {

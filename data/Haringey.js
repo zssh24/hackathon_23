@@ -1,4 +1,4 @@
-var HaringeyJSON = {
+var haringeyJSON = {
   "type": "FeatureCollection",
   "features": [
     {

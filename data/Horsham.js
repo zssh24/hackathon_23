@@ -1,4 +1,4 @@
-var HorshamJSON = {
+var horshamJSON = {
   "type": "FeatureCollection",
   "features": [
     {

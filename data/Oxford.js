@@ -1,4 +1,4 @@
-var OxfordJSON = {
+var oxfordJSON = {
   "type": "FeatureCollection",
   "features": [
     {

@@ -1,4 +1,4 @@
-var BlackpoolJSON = {
+var blackpoolJSON = {
   "type": "FeatureCollection",
   "features": [
     {

@@ -1,4 +1,4 @@
-var EnfieldJSON = {
+var enfieldJSON = {
   "type": "FeatureCollection",
   "features": [
     {

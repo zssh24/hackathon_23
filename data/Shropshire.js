@@ -1,4 +1,4 @@
-var ShropshireJSON = {
+var shropshireJSON = {
   "type": "FeatureCollection",
   "features": [
     {

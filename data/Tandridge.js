@@ -1,4 +1,4 @@
-var TandridgeJSON = {
+var tandridgeJSON = {
   "type": "FeatureCollection",
   "features": [
     {

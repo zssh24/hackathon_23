@@ -1,4 +1,4 @@
-var Nuneaton and BedworthJSON = {
+var nuneatonandbedworthJSON = {
   "type": "FeatureCollection",
   "features": [
     {

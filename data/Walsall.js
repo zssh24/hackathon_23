@@ -1,4 +1,4 @@
-var WalsallJSON = {
+var walsallJSON = {
   "type": "FeatureCollection",
   "features": [
     {

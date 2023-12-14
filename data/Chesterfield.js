@@ -1,4 +1,4 @@
-var ChesterfieldJSON = {
+var chesterfieldJSON = {
   "type": "FeatureCollection",
   "features": [
     {

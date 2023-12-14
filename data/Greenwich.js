@@ -1,4 +1,4 @@
-var GreenwichJSON = {
+var greenwichJSON = {
   "type": "FeatureCollection",
   "features": [
     {

@@ -1,4 +1,4 @@
-var Hinckley and BosworthJSON = {
+var hinckleyandbosworthJSON = {
   "type": "FeatureCollection",
   "features": [
     {

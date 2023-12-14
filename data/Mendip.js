@@ -1,4 +1,4 @@
-var MendipJSON = {
+var mendipJSON = {
   "type": "FeatureCollection",
   "features": [
     {

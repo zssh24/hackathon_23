@@ -1,4 +1,4 @@
-var Somerset West and TauntonJSON = {
+var somersetwestandtauntonJSON = {
   "type": "FeatureCollection",
   "features": [
     {

@@ -1,4 +1,4 @@
-var StirlingJSON = {
+var stirlingJSON = {
   "type": "FeatureCollection",
   "features": [
     {

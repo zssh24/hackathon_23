@@ -1,4 +1,4 @@
-var SloughJSON = {
+var sloughJSON = {
   "type": "FeatureCollection",
   "features": [
     {

@@ -1,4 +1,4 @@
-var BrentJSON = {
+var brentJSON = {
   "type": "FeatureCollection",
   "features": [
     {

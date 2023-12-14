@@ -1,4 +1,4 @@
-var NottinghamJSON = {
+var nottinghamJSON = {
   "type": "FeatureCollection",
   "features": [
     {

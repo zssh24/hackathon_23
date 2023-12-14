@@ -1,4 +1,4 @@
-var HarrogateJSON = {
+var harrogateJSON = {
   "type": "FeatureCollection",
   "features": [
     {

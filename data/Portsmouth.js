@@ -1,4 +1,4 @@
-var PortsmouthJSON = {
+var portsmouthJSON = {
   "type": "FeatureCollection",
   "features": [
     {

@@ -1,4 +1,4 @@
-var CravenJSON = {
+var cravenJSON = {
   "type": "FeatureCollection",
   "features": [
     {

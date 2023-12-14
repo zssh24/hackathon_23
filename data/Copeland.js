@@ -1,4 +1,4 @@
-var CopelandJSON = {
+var copelandJSON = {
   "type": "FeatureCollection",
   "features": [
     {

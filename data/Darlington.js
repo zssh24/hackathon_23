@@ -1,4 +1,4 @@
-var DarlingtonJSON = {
+var darlingtonJSON = {
   "type": "FeatureCollection",
   "features": [
     {

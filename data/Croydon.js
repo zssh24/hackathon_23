@@ -1,4 +1,4 @@
-var CroydonJSON = {
+var croydonJSON = {
   "type": "FeatureCollection",
   "features": [
     {

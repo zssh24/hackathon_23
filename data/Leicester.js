@@ -1,4 +1,4 @@
-var LeicesterJSON = {
+var leicesterJSON = {
   "type": "FeatureCollection",
   "features": [
     {

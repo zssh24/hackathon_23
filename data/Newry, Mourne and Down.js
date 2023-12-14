@@ -1,4 +1,4 @@
-var Newry, Mourne and DownJSON = {
+var newrymourneanddownJSON = {
   "type": "FeatureCollection",
   "features": [
     {

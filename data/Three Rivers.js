@@ -1,4 +1,4 @@
-var Three RiversJSON = {
+var threeriversJSON = {
   "type": "FeatureCollection",
   "features": [
     {

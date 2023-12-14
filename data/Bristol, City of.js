@@ -1,4 +1,4 @@
-var Bristol, City ofJSON = {
+var bristolcityofJSON = {
   "type": "FeatureCollection",
   "features": [
     {

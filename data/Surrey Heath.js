@@ -1,4 +1,4 @@
-var Surrey HeathJSON = {
+var surreyheathJSON = {
   "type": "FeatureCollection",
   "features": [
     {

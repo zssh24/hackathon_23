@@ -1,4 +1,4 @@
-var Waltham ForestJSON = {
+var walthamforestJSON = {
   "type": "FeatureCollection",
   "features": [
     {

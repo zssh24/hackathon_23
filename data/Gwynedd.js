@@ -1,4 +1,4 @@
-var GwyneddJSON = {
+var gwyneddJSON = {
   "type": "FeatureCollection",
   "features": [
     {

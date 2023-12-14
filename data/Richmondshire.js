@@ -1,4 +1,4 @@
-var RichmondshireJSON = {
+var richmondshireJSON = {
   "type": "FeatureCollection",
   "features": [
     {

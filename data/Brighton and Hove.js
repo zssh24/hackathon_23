@@ -1,4 +1,4 @@
-var Brighton and HoveJSON = {
+var brightonandhoveJSON = {
   "type": "FeatureCollection",
   "features": [
     {

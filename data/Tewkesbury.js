@@ -1,4 +1,4 @@
-var TewkesburyJSON = {
+var tewkesburyJSON = {
   "type": "FeatureCollection",
   "features": [
     {

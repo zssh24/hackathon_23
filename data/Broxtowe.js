@@ -1,4 +1,4 @@
-var BroxtoweJSON = {
+var broxtoweJSON = {
   "type": "FeatureCollection",
   "features": [
     {

@@ -1,4 +1,4 @@
-var BroadlandJSON = {
+var broadlandJSON = {
   "type": "FeatureCollection",
   "features": [
     {

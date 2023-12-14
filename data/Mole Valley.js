@@ -1,4 +1,4 @@
-var Mole ValleyJSON = {
+var molevalleyJSON = {
   "type": "FeatureCollection",
   "features": [
     {

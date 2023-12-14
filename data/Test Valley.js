@@ -1,4 +1,4 @@
-var Test ValleyJSON = {
+var testvalleyJSON = {
   "type": "FeatureCollection",
   "features": [
     {

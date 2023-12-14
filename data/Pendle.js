@@ -1,4 +1,4 @@
-var PendleJSON = {
+var pendleJSON = {
   "type": "FeatureCollection",
   "features": [
     {

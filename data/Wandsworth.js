@@ -1,4 +1,4 @@
-var WandsworthJSON = {
+var wandsworthJSON = {
   "type": "FeatureCollection",
   "features": [
     {

@@ -1,4 +1,4 @@
-var Dundee CityJSON = {
+var dundeecityJSON = {
   "type": "FeatureCollection",
   "features": [
     {

@@ -1,4 +1,4 @@
-var Mid UlsterJSON = {
+var midulsterJSON = {
   "type": "FeatureCollection",
   "features": [
     {

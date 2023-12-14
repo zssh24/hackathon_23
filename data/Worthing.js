@@ -1,4 +1,4 @@
-var WorthingJSON = {
+var worthingJSON = {
   "type": "FeatureCollection",
   "features": [
     {

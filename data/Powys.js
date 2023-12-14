@@ -1,4 +1,4 @@
-var PowysJSON = {
+var powysJSON = {
   "type": "FeatureCollection",
   "features": [
     {

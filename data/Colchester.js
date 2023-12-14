@@ -1,4 +1,4 @@
-var ColchesterJSON = {
+var colchesterJSON = {
   "type": "FeatureCollection",
   "features": [
     {

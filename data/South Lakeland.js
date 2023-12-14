@@ -1,4 +1,4 @@
-var South LakelandJSON = {
+var southlakelandJSON = {
   "type": "FeatureCollection",
   "features": [
     {

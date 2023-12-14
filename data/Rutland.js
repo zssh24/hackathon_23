@@ -1,4 +1,4 @@
-var RutlandJSON = {
+var rutlandJSON = {
   "type": "FeatureCollection",
   "features": [
     {

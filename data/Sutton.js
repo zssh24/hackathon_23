@@ -1,4 +1,4 @@
-var SuttonJSON = {
+var suttonJSON = {
   "type": "FeatureCollection",
   "features": [
     {

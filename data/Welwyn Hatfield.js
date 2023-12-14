@@ -1,4 +1,4 @@
-var Welwyn HatfieldJSON = {
+var welwynhatfieldJSON = {
   "type": "FeatureCollection",
   "features": [
     {

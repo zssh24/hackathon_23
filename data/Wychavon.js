@@ -1,4 +1,4 @@
-var WychavonJSON = {
+var wychavonJSON = {
   "type": "FeatureCollection",
   "features": [
     {

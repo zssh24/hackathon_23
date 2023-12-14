@@ -1,4 +1,4 @@
-var ClackmannanshireJSON = {
+var clackmannanshireJSON = {
   "type": "FeatureCollection",
   "features": [
     {

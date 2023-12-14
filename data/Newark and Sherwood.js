@@ -1,4 +1,4 @@
-var Newark and SherwoodJSON = {
+var newarkandsherwoodJSON = {
   "type": "FeatureCollection",
   "features": [
     {

@@ -1,4 +1,4 @@
-var Ribble ValleyJSON = {
+var ribblevalleyJSON = {
   "type": "FeatureCollection",
   "features": [
     {

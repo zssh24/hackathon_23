@@ -1,4 +1,4 @@
-var ChichesterJSON = {
+var chichesterJSON = {
   "type": "FeatureCollection",
   "features": [
     {

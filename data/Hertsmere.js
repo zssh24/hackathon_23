@@ -1,4 +1,4 @@
-var HertsmereJSON = {
+var hertsmereJSON = {
   "type": "FeatureCollection",
   "features": [
     {

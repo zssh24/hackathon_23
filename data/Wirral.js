@@ -1,4 +1,4 @@
-var WirralJSON = {
+var wirralJSON = {
   "type": "FeatureCollection",
   "features": [
     {

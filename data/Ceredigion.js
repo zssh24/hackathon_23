@@ -1,4 +1,4 @@
-var CeredigionJSON = {
+var ceredigionJSON = {
   "type": "FeatureCollection",
   "features": [
     {

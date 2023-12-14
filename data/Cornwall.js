@@ -1,4 +1,4 @@
-var CornwallJSON = {
+var cornwallJSON = {
   "type": "FeatureCollection",
   "features": [
     {

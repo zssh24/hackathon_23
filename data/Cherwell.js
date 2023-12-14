@@ -1,4 +1,4 @@
-var CherwellJSON = {
+var cherwellJSON = {
   "type": "FeatureCollection",
   "features": [
     {

@@ -1,4 +1,4 @@
-var ChelmsfordJSON = {
+var chelmsfordJSON = {
   "type": "FeatureCollection",
   "features": [
     {

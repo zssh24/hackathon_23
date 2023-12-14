@@ -1,4 +1,4 @@
-var NewportJSON = {
+var newportJSON = {
   "type": "FeatureCollection",
   "features": [
     {

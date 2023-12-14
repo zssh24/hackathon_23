@@ -1,4 +1,4 @@
-var LancasterJSON = {
+var lancasterJSON = {
   "type": "FeatureCollection",
   "features": [
     {

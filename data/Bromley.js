@@ -1,4 +1,4 @@
-var BromleyJSON = {
+var bromleyJSON = {
   "type": "FeatureCollection",
   "features": [
     {

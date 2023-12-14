@@ -1,4 +1,4 @@
-var IslingtonJSON = {
+var islingtonJSON = {
   "type": "FeatureCollection",
   "features": [
     {

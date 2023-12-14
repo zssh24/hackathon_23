@@ -1,4 +1,4 @@
-var CharnwoodJSON = {
+var charnwoodJSON = {
   "type": "FeatureCollection",
   "features": [
     {

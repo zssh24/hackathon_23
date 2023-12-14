@@ -1,4 +1,4 @@
-var HartlepoolJSON = {
+var hartlepoolJSON = {
   "type": "FeatureCollection",
   "features": [
     {

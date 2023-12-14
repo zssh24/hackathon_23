@@ -1,4 +1,4 @@
-var ThurrockJSON = {
+var thurrockJSON = {
   "type": "FeatureCollection",
   "features": [
     {

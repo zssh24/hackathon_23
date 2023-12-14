@@ -1,4 +1,4 @@
-var Epsom and EwellJSON = {
+var epsomandewellJSON = {
   "type": "FeatureCollection",
   "features": [
     {

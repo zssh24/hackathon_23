@@ -1,4 +1,4 @@
-var ErewashJSON = {
+var erewashJSON = {
   "type": "FeatureCollection",
   "features": [
     {

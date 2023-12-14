@@ -1,4 +1,4 @@
-var RedbridgeJSON = {
+var redbridgeJSON = {
   "type": "FeatureCollection",
   "features": [
     {

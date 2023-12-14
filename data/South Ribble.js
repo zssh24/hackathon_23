@@ -1,4 +1,4 @@
-var South RibbleJSON = {
+var southribbleJSON = {
   "type": "FeatureCollection",
   "features": [
     {

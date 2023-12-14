@@ -1,4 +1,4 @@
-var LincolnJSON = {
+var lincolnJSON = {
   "type": "FeatureCollection",
   "features": [
     {

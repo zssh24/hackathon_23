@@ -1,4 +1,4 @@
-var Mid DevonJSON = {
+var middevonJSON = {
   "type": "FeatureCollection",
   "features": [
     {

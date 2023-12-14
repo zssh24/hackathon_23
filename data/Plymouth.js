@@ -1,4 +1,4 @@
-var PlymouthJSON = {
+var plymouthJSON = {
   "type": "FeatureCollection",
   "features": [
     {

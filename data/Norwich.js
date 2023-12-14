@@ -1,4 +1,4 @@
-var NorwichJSON = {
+var norwichJSON = {
   "type": "FeatureCollection",
   "features": [
     {

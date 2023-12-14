@@ -1,4 +1,4 @@
-var WaverleyJSON = {
+var waverleyJSON = {
   "type": "FeatureCollection",
   "features": [
     {

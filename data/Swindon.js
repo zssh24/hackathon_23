@@ -1,4 +1,4 @@
-var SwindonJSON = {
+var swindonJSON = {
   "type": "FeatureCollection",
   "features": [
     {

@@ -1,4 +1,4 @@
-var SolihullJSON = {
+var solihullJSON = {
   "type": "FeatureCollection",
   "features": [
     {

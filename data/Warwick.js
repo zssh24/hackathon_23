@@ -1,4 +1,4 @@
-var WarwickJSON = {
+var warwickJSON = {
   "type": "FeatureCollection",
   "features": [
     {

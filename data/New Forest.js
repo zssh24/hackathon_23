@@ -1,4 +1,4 @@
-var New ForestJSON = {
+var newforestJSON = {
   "type": "FeatureCollection",
   "features": [
     {

@@ -1,4 +1,4 @@
-var South HollandJSON = {
+var southhollandJSON = {
   "type": "FeatureCollection",
   "features": [
     {

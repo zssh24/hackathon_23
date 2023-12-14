@@ -1,4 +1,4 @@
-var FarehamJSON = {
+var farehamJSON = {
   "type": "FeatureCollection",
   "features": [
     {

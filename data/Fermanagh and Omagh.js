@@ -1,4 +1,4 @@
-var Fermanagh and OmaghJSON = {
+var fermanaghandomaghJSON = {
   "type": "FeatureCollection",
   "features": [
     {

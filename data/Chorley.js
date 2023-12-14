@@ -1,4 +1,4 @@
-var ChorleyJSON = {
+var chorleyJSON = {
   "type": "FeatureCollection",
   "features": [
     {

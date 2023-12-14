@@ -1,4 +1,4 @@
-var SwaleJSON = {
+var swaleJSON = {
   "type": "FeatureCollection",
   "features": [
     {

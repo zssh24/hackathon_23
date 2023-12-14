@@ -1,4 +1,4 @@
-var ExeterJSON = {
+var exeterJSON = {
   "type": "FeatureCollection",
   "features": [
     {

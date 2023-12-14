@@ -1,4 +1,4 @@
-var HillingdonJSON = {
+var hillingdonJSON = {
   "type": "FeatureCollection",
   "features": [
     {

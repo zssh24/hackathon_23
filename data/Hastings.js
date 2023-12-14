@@ -1,4 +1,4 @@
-var HastingsJSON = {
+var hastingsJSON = {
   "type": "FeatureCollection",
   "features": [
     {

@@ -1,4 +1,4 @@
-var Stoke-on-TrentJSON = {
+var stoke_on_trentJSON = {
   "type": "FeatureCollection",
   "features": [
     {

@@ -1,4 +1,4 @@
-var Forest of DeanJSON = {
+var forestofdeanJSON = {
   "type": "FeatureCollection",
   "features": [
     {

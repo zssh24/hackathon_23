@@ -1,4 +1,4 @@
-var South KestevenJSON = {
+var southkestevenJSON = {
   "type": "FeatureCollection",
   "features": [
     {

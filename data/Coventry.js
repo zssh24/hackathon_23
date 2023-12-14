@@ -1,4 +1,4 @@
-var CoventryJSON = {
+var coventryJSON = {
   "type": "FeatureCollection",
   "features": [
     {

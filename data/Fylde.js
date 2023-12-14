@@ -1,4 +1,4 @@
-var FyldeJSON = {
+var fyldeJSON = {
   "type": "FeatureCollection",
   "features": [
     {

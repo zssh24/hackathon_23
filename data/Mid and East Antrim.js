@@ -1,4 +1,4 @@
-var Mid and East AntrimJSON = {
+var midandeastantrimJSON = {
   "type": "FeatureCollection",
   "features": [
     {

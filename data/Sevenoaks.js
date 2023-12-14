@@ -1,4 +1,4 @@
-var SevenoaksJSON = {
+var sevenoaksJSON = {
   "type": "FeatureCollection",
   "features": [
     {

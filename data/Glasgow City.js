@@ -1,4 +1,4 @@
-var Glasgow CityJSON = {
+var glasgowcityJSON = {
   "type": "FeatureCollection",
   "features": [
     {

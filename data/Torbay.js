@@ -1,4 +1,4 @@
-var TorbayJSON = {
+var torbayJSON = {
   "type": "FeatureCollection",
   "features": [
     {

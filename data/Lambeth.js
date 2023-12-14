@@ -1,4 +1,4 @@
-var LambethJSON = {
+var lambethJSON = {
   "type": "FeatureCollection",
   "features": [
     {

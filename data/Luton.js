@@ -1,4 +1,4 @@
-var LutonJSON = {
+var lutonJSON = {
   "type": "FeatureCollection",
   "features": [
     {

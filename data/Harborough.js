@@ -1,4 +1,4 @@
-var HarboroughJSON = {
+var harboroughJSON = {
   "type": "FeatureCollection",
   "features": [
     {

@@ -1,4 +1,4 @@
-var RushmoorJSON = {
+var rushmoorJSON = {
   "type": "FeatureCollection",
   "features": [
     {

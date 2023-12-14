@@ -1,4 +1,4 @@
-var GraveshamJSON = {
+var graveshamJSON = {
   "type": "FeatureCollection",
   "features": [
     {

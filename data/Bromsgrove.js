@@ -1,4 +1,4 @@
-var BromsgroveJSON = {
+var bromsgroveJSON = {
   "type": "FeatureCollection",
   "features": [
     {

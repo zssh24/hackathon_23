@@ -1,4 +1,4 @@
-var WinchesterJSON = {
+var winchesterJSON = {
   "type": "FeatureCollection",
   "features": [
     {

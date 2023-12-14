@@ -1,4 +1,4 @@
-var TeignbridgeJSON = {
+var teignbridgeJSON = {
   "type": "FeatureCollection",
   "features": [
     {

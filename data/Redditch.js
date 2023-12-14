@@ -1,4 +1,4 @@
-var RedditchJSON = {
+var redditchJSON = {
   "type": "FeatureCollection",
   "features": [
     {

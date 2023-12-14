@@ -1,4 +1,4 @@
-var GosportJSON = {
+var gosportJSON = {
   "type": "FeatureCollection",
   "features": [
     {

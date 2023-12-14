@@ -1,4 +1,4 @@
-var CarlisleJSON = {
+var carlisleJSON = {
   "type": "FeatureCollection",
   "features": [
     {

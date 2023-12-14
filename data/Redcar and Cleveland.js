@@ -1,4 +1,4 @@
-var Redcar and ClevelandJSON = {
+var redcarandclevelandJSON = {
   "type": "FeatureCollection",
   "features": [
     {

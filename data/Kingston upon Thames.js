@@ -1,4 +1,4 @@
-var Kingston upon ThamesJSON = {
+var kingstonuponyhamesJSON = {
   "type": "FeatureCollection",
   "features": [
     {

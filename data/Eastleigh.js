@@ -1,4 +1,4 @@
-var EastleighJSON = {
+var eastleighJSON = {
   "type": "FeatureCollection",
   "features": [
     {

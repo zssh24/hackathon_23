@@ -1,4 +1,4 @@
-var TorridgeJSON = {
+var torridgeJSON = {
   "type": "FeatureCollection",
   "features": [
     {

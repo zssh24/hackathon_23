@@ -1,4 +1,4 @@
-var Scottish BordersJSON = {
+var scottishbordersJSON = {
   "type": "FeatureCollection",
   "features": [
     {

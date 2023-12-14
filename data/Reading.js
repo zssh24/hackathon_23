@@ -1,4 +1,4 @@
-var ReadingJSON = {
+var readingJSON = {
   "type": "FeatureCollection",
   "features": [
     {

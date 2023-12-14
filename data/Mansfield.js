@@ -1,4 +1,4 @@
-var MansfieldJSON = {
+var mansfieldJSON = {
   "type": "FeatureCollection",
   "features": [
     {

@@ -1,4 +1,4 @@
-var HartJSON = {
+var hartJSON = {
   "type": "FeatureCollection",
   "features": [
     {

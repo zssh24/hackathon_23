@@ -1,4 +1,4 @@
-var EastbourneJSON = {
+var eastbourneJSON = {
   "type": "FeatureCollection",
   "features": [
     {

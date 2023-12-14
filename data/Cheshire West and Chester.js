@@ -1,4 +1,4 @@
-var Cheshire West and ChesterJSON = {
+var cheshirewestandchesterJSON = {
   "type": "FeatureCollection",
   "features": [
     {

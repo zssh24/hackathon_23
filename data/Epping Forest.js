@@ -1,4 +1,4 @@
-var Epping ForestJSON = {
+var eppingforestJSON = {
   "type": "FeatureCollection",
   "features": [
     {

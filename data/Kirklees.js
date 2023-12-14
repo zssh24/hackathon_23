@@ -1,4 +1,4 @@
-var KirkleesJSON = {
+var kirkleesJSON = {
   "type": "FeatureCollection",
   "features": [
     {

@@ -1,4 +1,4 @@
-var MaldonJSON = {
+var maldonJSON = {
   "type": "FeatureCollection",
   "features": [
     {

@@ -1,4 +1,4 @@
-var Bracknell ForestJSON = {
+var bracknellforestJSON = {
   "type": "FeatureCollection",
   "features": [
     {

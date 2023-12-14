@@ -1,4 +1,4 @@
-var East CambridgeshireJSON = {
+var eastcambridgeshireJSON = {
   "type": "FeatureCollection",
   "features": [
     {

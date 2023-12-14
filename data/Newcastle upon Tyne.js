@@ -1,4 +1,4 @@
-var Newcastle upon TyneJSON = {
+var newcastleupontyneJSON = {
   "type": "FeatureCollection",
   "features": [
     {

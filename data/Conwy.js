@@ -1,4 +1,4 @@
-var ConwyJSON = {
+var conwyJSON = {
   "type": "FeatureCollection",
   "features": [
     {

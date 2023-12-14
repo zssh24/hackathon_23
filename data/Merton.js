@@ -1,4 +1,4 @@
-var MertonJSON = {
+var mertonJSON = {
   "type": "FeatureCollection",
   "features": [
     {

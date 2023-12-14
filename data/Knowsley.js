@@ -1,4 +1,4 @@
-var KnowsleyJSON = {
+var knowsleyJSON = {
   "type": "FeatureCollection",
   "features": [
     {

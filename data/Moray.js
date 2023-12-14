@@ -1,4 +1,4 @@
-var MorayJSON = {
+var morayJSON = {
   "type": "FeatureCollection",
   "features": [
     {

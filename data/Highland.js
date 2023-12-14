@@ -1,4 +1,4 @@
-var HighlandJSON = {
+var highlandJSON = {
   "type": "FeatureCollection",
   "features": [
     {

@@ -1,4 +1,4 @@
-var CambridgeJSON = {
+var cambridgeJSON = {
   "type": "FeatureCollection",
   "features": [
     {

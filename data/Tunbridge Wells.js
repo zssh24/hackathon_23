@@ -1,4 +1,4 @@
-var Tunbridge WellsJSON = {
+var tunbridgewellsJSON = {
   "type": "FeatureCollection",
   "features": [
     {

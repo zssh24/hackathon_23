@@ -1,4 +1,4 @@
-var TorfaenJSON = {
+var torfaenJSON = {
   "type": "FeatureCollection",
   "features": [
     {

@@ -1,4 +1,4 @@
-var Wyre ForestJSON = {
+var wyreforestJSON = {
   "type": "FeatureCollection",
   "features": [
     {

@@ -1,4 +1,4 @@
-var City of LondonJSON = {
+var cityoflondonJSON = {
   "type": "FeatureCollection",
   "features": [
     {

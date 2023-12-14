@@ -1,4 +1,4 @@
-var FlintshireJSON = {
+var flintshireJSON = {
   "type": "FeatureCollection",
   "features": [
     {

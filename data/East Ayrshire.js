@@ -1,4 +1,4 @@
-var East AyrshireJSON = {
+var eastayrshireJSON = {
   "type": "FeatureCollection",
   "features": [
     {

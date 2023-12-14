@@ -1,4 +1,4 @@
-var DoverJSON = {
+var doverJSON = {
   "type": "FeatureCollection",
   "features": [
     {

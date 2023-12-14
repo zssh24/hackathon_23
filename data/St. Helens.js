@@ -1,4 +1,4 @@
-var St. HelensJSON = {
+var sthelensJSON = {
   "type": "FeatureCollection",
   "features": [
     {

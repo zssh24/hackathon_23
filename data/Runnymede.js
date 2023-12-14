@@ -1,4 +1,4 @@
-var RunnymedeJSON = {
+var runnymedeJSON = {
   "type": "FeatureCollection",
   "features": [
     {

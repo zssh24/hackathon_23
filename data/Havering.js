@@ -1,4 +1,4 @@
-var HaveringJSON = {
+var haveringJSON = {
   "type": "FeatureCollection",
   "features": [
     {

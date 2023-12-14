@@ -1,4 +1,4 @@
-var OldhamJSON = {
+var oldhamJSON = {
   "type": "FeatureCollection",
   "features": [
     {

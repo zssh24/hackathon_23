@@ -1,4 +1,4 @@
-var BridgendJSON = {
+var bridgendJSON = {
   "type": "FeatureCollection",
   "features": [
     {

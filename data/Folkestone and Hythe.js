@@ -1,4 +1,4 @@
-var Folkestone and HytheJSON = {
+var folkestoneandhytheJSON = {
   "type": "FeatureCollection",
   "features": [
     {

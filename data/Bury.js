@@ -1,4 +1,4 @@
-var BuryJSON = {
+var buryJSON = {
   "type": "FeatureCollection",
   "features": [
     {

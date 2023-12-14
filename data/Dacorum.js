@@ -1,4 +1,4 @@
-var DacorumJSON = {
+var dacorumJSON = {
   "type": "FeatureCollection",
   "features": [
     {

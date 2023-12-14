@@ -1,4 +1,4 @@
-var CanterburyJSON = {
+var canterburyJSON = {
   "type": "FeatureCollection",
   "features": [
     {

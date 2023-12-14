@@ -1,4 +1,4 @@
-var HarrowJSON = {
+var harrowJSON = {
   "type": "FeatureCollection",
   "features": [
     {

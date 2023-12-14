@@ -1,4 +1,4 @@
-var EdenJSON = {
+var edenJSON = {
   "type": "FeatureCollection",
   "features": [
     {

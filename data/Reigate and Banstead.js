@@ -1,4 +1,4 @@
-var Reigate and BansteadJSON = {
+var reigateandbansteadJSON = {
   "type": "FeatureCollection",
   "features": [
     {

@@ -1,4 +1,4 @@
-var PrestonJSON = {
+var prestonJSON = {
   "type": "FeatureCollection",
   "features": [
     {

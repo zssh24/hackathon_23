@@ -1,4 +1,4 @@
-var MedwayJSON = {
+var medwayJSON = {
   "type": "FeatureCollection",
   "features": [
     {

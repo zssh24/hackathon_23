@@ -1,4 +1,4 @@
-var Tower HamletsJSON = {
+var towerhamletsJSON = {
   "type": "FeatureCollection",
   "features": [
     {

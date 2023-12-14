@@ -1,4 +1,4 @@
-var SouthamptonJSON = {
+var southamptonJSON = {
   "type": "FeatureCollection",
   "features": [
     {

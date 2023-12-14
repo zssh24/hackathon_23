@@ -1,4 +1,4 @@
-var BoltonJSON = {
+var boltonJSON = {
   "type": "FeatureCollection",
   "features": [
     {

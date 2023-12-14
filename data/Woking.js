@@ -1,4 +1,4 @@
-var WokingJSON = {
+var wokingJSON = {
   "type": "FeatureCollection",
   "features": [
     {

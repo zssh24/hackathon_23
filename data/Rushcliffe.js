@@ -1,4 +1,4 @@
-var RushcliffeJSON = {
+var rushcliffeJSON = {
   "type": "FeatureCollection",
   "features": [
     {

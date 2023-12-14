@@ -1,4 +1,4 @@
-var YorkJSON = {
+var yorkJSON = {
   "type": "FeatureCollection",
   "features": [
     {

@@ -1,4 +1,4 @@
-var HackneyJSON = {
+var hackneyJSON = {
   "type": "FeatureCollection",
   "features": [
     {

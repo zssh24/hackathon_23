@@ -1,4 +1,4 @@
-var Dumfries and GallowayJSON = {
+var dumfriesandgallowayJSON = {
   "type": "FeatureCollection",
   "features": [
     {

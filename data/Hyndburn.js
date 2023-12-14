@@ -1,4 +1,4 @@
-var HyndburnJSON = {
+var hyndburnJSON = {
   "type": "FeatureCollection",
   "features": [
     {

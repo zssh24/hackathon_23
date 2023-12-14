@@ -1,4 +1,4 @@
-var TendringJSON = {
+var tendringJSON = {
   "type": "FeatureCollection",
   "features": [
     {

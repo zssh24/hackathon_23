@@ -1,4 +1,4 @@
-var Merthyr TydfilJSON = {
+var merthyrtdfilJSON = {
   "type": "FeatureCollection",
   "features": [
     {

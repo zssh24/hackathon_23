@@ -1,4 +1,4 @@
-var WrexhamJSON = {
+var wrexhamJSON = {
   "type": "FeatureCollection",
   "features": [
     {

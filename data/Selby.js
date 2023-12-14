@@ -1,4 +1,4 @@
-var SelbyJSON = {
+var selbyJSON = {
   "type": "FeatureCollection",
   "features": [
     {

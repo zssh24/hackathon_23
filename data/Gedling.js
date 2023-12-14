@@ -1,4 +1,4 @@
-var GedlingJSON = {
+var gedlingJSON = {
   "type": "FeatureCollection",
   "features": [
     {

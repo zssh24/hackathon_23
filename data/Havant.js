@@ -1,4 +1,4 @@
-var HavantJSON = {
+var havantJSON = {
   "type": "FeatureCollection",
   "features": [
     {

@@ -1,4 +1,4 @@
-var DoncasterJSON = {
+var doncasterJSON = {
   "type": "FeatureCollection",
   "features": [
     {

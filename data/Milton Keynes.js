@@ -1,4 +1,4 @@
-var Milton KeynesJSON = {
+var miltonkeynesJSON = {
   "type": "FeatureCollection",
   "features": [
     {

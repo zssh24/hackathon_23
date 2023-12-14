@@ -1,4 +1,4 @@
-var Telford and WrekinJSON = {
+var telfordandwrekinJSON = {
   "type": "FeatureCollection",
   "features": [
     {

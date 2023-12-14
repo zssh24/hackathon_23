@@ -1,4 +1,4 @@
-var FalkirkJSON = {
+var falkirkJSON = {
   "type": "FeatureCollection",
   "features": [
     {

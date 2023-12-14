@@ -1,4 +1,4 @@
-var County DurhamJSON = {
+var countydurhamJSON = {
   "type": "FeatureCollection",
   "features": [
     {

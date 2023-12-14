@@ -1,4 +1,4 @@
-var Tonbridge and MallingJSON = {
+var tonbridgeandmallingJSON = {
   "type": "FeatureCollection",
   "features": [
     {

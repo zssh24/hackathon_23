@@ -1,4 +1,4 @@
-var RotherJSON = {
+var rotherJSON = {
   "type": "FeatureCollection",
   "features": [
     {

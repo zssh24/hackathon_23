@@ -1,4 +1,4 @@
-var CrawleyJSON = {
+var crawleyJSON = {
   "type": "FeatureCollection",
   "features": [
     {

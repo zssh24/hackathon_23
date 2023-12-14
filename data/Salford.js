@@ -1,4 +1,4 @@
-var SalfordJSON = {
+var salfordJSON = {
   "type": "FeatureCollection",
   "features": [
     {

@@ -1,4 +1,4 @@
-var Castle PointJSON = {
+var castlepointJSON = {
   "type": "FeatureCollection",
   "features": [
     {

@@ -1,4 +1,4 @@
-var BurnleyJSON = {
+var burnleyJSON = {
   "type": "FeatureCollection",
   "features": [
     {

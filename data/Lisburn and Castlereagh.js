@@ -1,4 +1,4 @@
-var Lisburn and CastlereaghJSON = {
+var lisburnandcastlereaghJSON = {
   "type": "FeatureCollection",
   "features": [
     {

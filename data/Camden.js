@@ -1,4 +1,4 @@
-var CamdenJSON = {
+var camdenJSON = {
   "type": "FeatureCollection",
   "features": [
     {

@@ -1,4 +1,4 @@
-var CaerphillyJSON = {
+var caerphillyJSON = {
   "type": "FeatureCollection",
   "features": [
     {

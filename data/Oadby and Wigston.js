@@ -1,4 +1,4 @@
-var Oadby and WigstonJSON = {
+var oadbyandwigstonJSON = {
   "type": "FeatureCollection",
   "features": [
     {

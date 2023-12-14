@@ -1,4 +1,4 @@
-var BraintreeJSON = {
+var braintreeJSON = {
   "type": "FeatureCollection",
   "features": [
     {

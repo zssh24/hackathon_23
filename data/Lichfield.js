@@ -1,4 +1,4 @@
-var LichfieldJSON = {
+var lichfieldJSON = {
   "type": "FeatureCollection",
   "features": [
     {

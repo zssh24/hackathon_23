@@ -1,4 +1,4 @@
-var StockportJSON = {
+var stockportJSON = {
   "type": "FeatureCollection",
   "features": [
     {

@@ -1,4 +1,4 @@
-var MaidstoneJSON = {
+var maidstoneJSON = {
   "type": "FeatureCollection",
   "features": [
     {

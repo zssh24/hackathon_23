@@ -1,4 +1,4 @@
-var Isle of AngleseyJSON = {
+var isleofangleseyJSON = {
   "type": "FeatureCollection",
   "features": [
     {

@@ -1,4 +1,4 @@
-var RochdaleJSON = {
+var rochdaleJSON = {
   "type": "FeatureCollection",
   "features": [
     {

@@ -1,4 +1,4 @@
-var DudleyJSON = {
+var dudleyJSON = {
   "type": "FeatureCollection",
   "features": [
     {

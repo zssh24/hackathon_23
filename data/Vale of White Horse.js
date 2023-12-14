@@ -1,4 +1,4 @@
-var Vale of White HorseJSON = {
+var valeofwhitehorseJSON = {
   "type": "FeatureCollection",
   "features": [
     {

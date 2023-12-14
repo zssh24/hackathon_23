@@ -1,4 +1,4 @@
-var CheltenhamJSON = {
+var cheltenhamJSON = {
   "type": "FeatureCollection",
   "features": [
     {

@@ -1,4 +1,4 @@
-var Isles of ScillyJSON = {
+var islesofscillyJSON = {
   "type": "FeatureCollection",
   "features": [
     {

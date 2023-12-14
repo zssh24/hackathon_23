@@ -1,4 +1,4 @@
-var St AlbansJSON = {
+var stalbansJSON = {
   "type": "FeatureCollection",
   "features": [
     {

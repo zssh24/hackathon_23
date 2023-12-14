@@ -1,4 +1,4 @@
-var MeltonJSON = {
+var meltonJSON = {
   "type": "FeatureCollection",
   "features": [
     {

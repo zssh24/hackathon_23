@@ -1,4 +1,4 @@
-var DerbyJSON = {
+var derbyJSON = {
   "type": "FeatureCollection",
   "features": [
     {

@@ -1,4 +1,4 @@
-var DorsetJSON = {
+var dorsetJSON = {
   "type": "FeatureCollection",
   "features": [
     {

@@ -1,4 +1,4 @@
-var Central BedfordshireJSON = {
+var centralbedfordshireJSON = {
   "type": "FeatureCollection",
   "features": [
     {

@@ -1,4 +1,4 @@
-var West LindseyJSON = {
+var westlindseyJSON = {
   "type": "FeatureCollection",
   "features": [
     {

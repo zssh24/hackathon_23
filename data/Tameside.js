@@ -1,4 +1,4 @@
-var TamesideJSON = {
+var tamesideJSON = {
   "type": "FeatureCollection",
   "features": [
     {

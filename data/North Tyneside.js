@@ -1,4 +1,4 @@
-var North TynesideJSON = {
+var northtynesideJSON = {
   "type": "FeatureCollection",
   "features": [
     {

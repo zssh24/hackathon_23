@@ -1,4 +1,4 @@
-var WatfordJSON = {
+var watfordJSON = {
   "type": "FeatureCollection",
   "features": [
     {

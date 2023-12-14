@@ -1,4 +1,4 @@
-var NewhamJSON = {
+var newhamJSON = {
   "type": "FeatureCollection",
   "features": [
     {

@@ -1,4 +1,4 @@
-var City of EdinburghJSON = {
+var cityofedinburghJSON = {
   "type": "FeatureCollection",
   "features": [
     {

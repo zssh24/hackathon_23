@@ -1,4 +1,4 @@
-var East LothianJSON = {
+var eastlothianJSON = {
   "type": "FeatureCollection",
   "features": [
     {

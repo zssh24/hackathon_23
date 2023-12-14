@@ -1,4 +1,4 @@
-var Causeway Coast and GlensJSON = {
+var causewaycoastandglensJSON = {
   "type": "FeatureCollection",
   "features": [
     {

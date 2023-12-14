@@ -1,4 +1,4 @@
-var Vale of GlamorganJSON = {
+var valeofglamorganJSON = {
   "type": "FeatureCollection",
   "features": [
     {

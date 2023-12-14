@@ -1,4 +1,4 @@
-var Southend-on-SeaJSON = {
+var southend_on_seaJSON = {
   "type": "FeatureCollection",
   "features": [
     {

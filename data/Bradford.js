@@ -1,4 +1,4 @@
-var BradfordJSON = {
+var bradfordJSON = {
   "type": "FeatureCollection",
   "features": [
     {

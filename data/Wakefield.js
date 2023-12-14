@@ -1,4 +1,4 @@
-var WakefieldJSON = {
+var wakefieldJSON = {
   "type": "FeatureCollection",
   "features": [
     {

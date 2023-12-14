@@ -1,4 +1,4 @@
-var North WarwickshireJSON = {
+var northwarwickshireJSON = {
   "type": "FeatureCollection",
   "features": [
     {

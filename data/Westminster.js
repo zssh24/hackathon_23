@@ -1,4 +1,4 @@
-var WestminsterJSON = {
+var westminsterJSON = {
   "type": "FeatureCollection",
   "features": [
     {

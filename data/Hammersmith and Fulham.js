@@ -1,4 +1,4 @@
-var Hammersmith and FulhamJSON = {
+var hammersmithandfulhamJSON = {
   "type": "FeatureCollection",
   "features": [
     {

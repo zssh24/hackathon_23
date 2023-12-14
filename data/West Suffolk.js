@@ -1,4 +1,4 @@
-var West SuffolkJSON = {
+var westsuffolkJSON = {
   "type": "FeatureCollection",
   "features": [
     {

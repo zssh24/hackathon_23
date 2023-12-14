@@ -1,4 +1,4 @@
-var High PeakJSON = {
+var highpeakJSON = {
   "type": "FeatureCollection",
   "features": [
     {

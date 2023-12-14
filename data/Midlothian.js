@@ -1,4 +1,4 @@
-var MidlothianJSON = {
+var midlothianJSON = {
   "type": "FeatureCollection",
   "features": [
     {

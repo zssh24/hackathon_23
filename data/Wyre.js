@@ -1,4 +1,4 @@
-var WyreJSON = {
+var wyreJSON = {
   "type": "FeatureCollection",
   "features": [
     {

@@ -1,4 +1,4 @@
-var SpelthorneJSON = {
+var spelthorneJSON = {
   "type": "FeatureCollection",
   "features": [
     {

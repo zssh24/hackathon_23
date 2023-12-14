@@ -1,4 +1,4 @@
-var East Riding of YorkshireJSON = {
+var eastridingofyorkshireJSON = {
   "type": "FeatureCollection",
   "features": [
     {

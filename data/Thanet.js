@@ -1,4 +1,4 @@
-var ThanetJSON = {
+var thanetJSON = {
   "type": "FeatureCollection",
   "features": [
     {

@@ -1,4 +1,4 @@
-var TamworthJSON = {
+var tamworthJSON = {
   "type": "FeatureCollection",
   "features": [
     {

@@ -1,4 +1,4 @@
-var Great YarmouthJSON = {
+var greatyarmouthJSON = {
   "type": "FeatureCollection",
   "features": [
     {
