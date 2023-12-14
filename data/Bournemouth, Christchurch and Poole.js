@@ -1,4 +1,4 @@
-var BournemouthChristchurchandPooleJSON = {
+var bournemouthchristchurchandpooleJSON = {
   "type": "FeatureCollection",
   "features": [
     {

@@ -1,4 +1,4 @@
-var stratford_on_avonJSON = {
+var stratfordonavonJSON = {
   "type": "FeatureCollection",
   "features": [
     {

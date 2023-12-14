@@ -1,4 +1,4 @@
-var stockton_on_teesJSON = {
+var stocktononteesJSON = {
   "type": "FeatureCollection",
   "features": [
     {

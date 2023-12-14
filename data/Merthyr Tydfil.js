@@ -1,4 +1,4 @@
-var merthyrtdfilJSON = {
+var merthyrtydfilJSON = {
   "type": "FeatureCollection",
   "features": [
     {

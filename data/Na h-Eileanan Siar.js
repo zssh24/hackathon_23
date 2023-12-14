@@ -1,4 +1,4 @@
-var mah_eileanansiarJSON = {
+var nah_eileanansiarJSON = {
   "type": "FeatureCollection",
   "features": [
     {
