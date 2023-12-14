@@ -1,7 +1,11 @@
 [
   {
-    "District": null,
-    "Number of products": 347719
+    "District": "",
+    "Number of products": 1132
+  },
+  {
+    "District": "",
+    "Number of products": 84731
   },
   {
     "District": "Aberdeen City",
@@ -240,6 +244,10 @@
     "Number of products": 379
   },
   {
+    "District": "Carlow",
+    "Number of products": 2189
+  },
+  {
     "District": "Carmarthenshire",
     "Number of products": 231
   },
@@ -250,6 +258,10 @@
   {
     "District": "Causeway Coast and Glens",
     "Number of products": 8967
+  },
+  {
+    "District": "Cavan",
+    "Number of products": 2455
   },
   {
     "District": "Central Bedfordshire",
@@ -308,6 +320,10 @@
     "Number of products": 73
   },
   {
+    "District": "Clare",
+    "Number of products": 2994
+  },
+  {
     "District": "Colchester",
     "Number of products": 55135
   },
@@ -318,6 +334,10 @@
   {
     "District": "Copeland",
     "Number of products": 296
+  },
+  {
+    "District": "Cork",
+    "Number of products": 33868
   },
   {
     "District": "Cornwall",
@@ -380,12 +400,20 @@
     "Number of products": 1662
   },
   {
+    "District": "Donegal",
+    "Number of products": 4576
+  },
+  {
     "District": "Dorset",
     "Number of products": 37093
   },
   {
     "District": "Dover",
     "Number of products": 507
+  },
+  {
+    "District": "Dublin",
+    "Number of products": 119515
   },
   {
     "District": "Dudley",
@@ -522,6 +550,10 @@
   {
     "District": "Fylde",
     "Number of products": 323
+  },
+  {
+    "District": "Galway",
+    "Number of products": 16648
   },
   {
     "District": "Gateshead",
@@ -688,6 +720,18 @@
     "Number of products": 1151
   },
   {
+    "District": "Kerry",
+    "Number of products": 6008
+  },
+  {
+    "District": "Kildare",
+    "Number of products": 11298
+  },
+  {
+    "District": "Kilkenny",
+    "Number of products": 3321
+  },
+  {
     "District": "King's Lynn and West Norfolk",
     "Number of products": 713
   },
@@ -716,12 +760,20 @@
     "Number of products": 814
   },
   {
+    "District": "Laois",
+    "Number of products": 3092
+  },
+  {
     "District": "Leeds",
     "Number of products": 9064
   },
   {
     "District": "Leicester",
     "Number of products": 85670
+  },
+  {
+    "District": "Leitrim",
+    "Number of products": 895
   },
   {
     "District": "Lewes",
@@ -736,6 +788,10 @@
     "Number of products": 12341
   },
   {
+    "District": "Limerick",
+    "Number of products": 8651
+  },
+  {
     "District": "Lincoln",
     "Number of products": 720
   },
@@ -746,6 +802,14 @@
   {
     "District": "Liverpool",
     "Number of products": 121541
+  },
+  {
+    "District": "Longford",
+    "Number of products": 762
+  },
+  {
+    "District": "Louth",
+    "Number of products": 5646
   },
   {
     "District": "Luton",
@@ -770,6 +834,14 @@
   {
     "District": "Mansfield",
     "Number of products": 790
+  },
+  {
+    "District": "Mayo",
+    "Number of products": 3722
+  },
+  {
+    "District": "Meath",
+    "Number of products": 7664
   },
   {
     "District": "Medway",
@@ -826,6 +898,10 @@
   {
     "District": "Mole Valley",
     "Number of products": 438
+  },
+  {
+    "District": "Monaghan",
+    "Number of products": 1678
   },
   {
     "District": "Monmouthshire",
@@ -948,6 +1024,10 @@
     "Number of products": 8647
   },
   {
+    "District": "Offaly",
+    "Number of products": 2700
+  },
+  {
     "District": "Oldham",
     "Number of products": 3574
   },
@@ -1040,6 +1120,10 @@
     "Number of products": 12383
   },
   {
+    "District": "Roscommon",
+    "Number of products": 1908
+  },
+  {
     "District": "Rossendale",
     "Number of products": 359
   },
@@ -1118,6 +1202,10 @@
   {
     "District": "Shropshire",
     "Number of products": 13168
+  },
+  {
+    "District": "Sligo",
+    "Number of products": 2814
   },
   {
     "District": "Slough",
@@ -1320,6 +1408,10 @@
     "Number of products": 11762
   },
   {
+    "District": "Tipperary",
+    "Number of products": 4269
+  },
+  {
     "District": "Tonbridge and Malling",
     "Number of products": 582
   },
@@ -1384,6 +1476,10 @@
     "Number of products": 878
   },
   {
+    "District": "Waterford",
+    "Number of products": 3389
+  },
+  {
     "District": "Watford",
     "Number of products": 16757
   },
@@ -1436,8 +1532,20 @@
     "Number of products": 2901
   },
   {
+    "District": "Westmeath",
+    "Number of products": 2586
+  },
+  {
     "District": "Westminster",
     "Number of products": 2089
+  },
+  {
+    "District": "Wexford",
+    "Number of products": 3265
+  },
+  {
+    "District": "Wicklow",
+    "Number of products": 5943
   },
   {
     "District": "Wigan",
