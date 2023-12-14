@@ -11,6 +11,31 @@
      crossorigin=""/>
 
     <style>
+    
+    .item3 { grid-area: footer }
+
+    .grid-container {
+            display: grid;
+            grid-template-areas:
+            'menu map main main right right'
+            'menu footer footer footer footer footer';
+            gap: 10px;
+            background-color: #0ab0d9;
+            padding: 10px;
+            overflow: hidden;
+            position: relative;/*takes whole lenght of screen*/
+            width: 100%;/*does nothing?*/
+            height: 100%;/*does nothing?*/
+    }
+
+    .grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+
+    }
+
         body {
             margin: 30px;
             padding: 0;
@@ -18,8 +43,8 @@
             color: black;
             font-size: 1.5em;
             background-color: rgb(253, 236, 222);
-
-             
+            overflow: auto;  /*scrolling*/
+            position: relative;/*takes whole lenght of screen*/       
         }
 
         #text-box {
@@ -31,56 +56,57 @@
         #title-container {
             width: 70%;
             text-align: center;
-            border: 2px solid black; /* Double line black frame for the map */
+            border: 2px solid black; 
         }
 
         #title {
             width: 100%;
             height: 2vh;
             color: #0ab0d9;
-            font-family: Helvetica, sans-serif;
-            font-size: 1.2em;
-            font-weight: 550;            
-            margin-bottom: 25px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1.7em;
+            font-weight: 600;            
+            margin-bottom: 34px;
             background-color: #fdc79b;
         }
 
         #subtitle {
             color: #3d454f;
             font-family: Helvetica, sans-serif;
-            font-size: 0.8em;
-            margin-top: 30px; 
+            font-size: 1em;
+            margin-top: 40px; 
         }
 
         #second-subtitle {
             color: #3d454f;
             font-family: Helvetica, sans-serif;
-            font-size: 0.7em;
-            margin-top: 7px; 
+            font-size: 0.8em;
+            margin-top: 7px;
+            margin-bottom: 20px; 
         }
-
-
-    </style>
-
-    <style>
         #map { 
             margin-top: 10px;
-            width: 100%;
+            width: 500%;
             height: 100vh; 
             border-style: solid;
             border-width: 3px;
             border-color: rgb(137, 43, 43);
+            
         }
+
     </style>
 
 </head>
 
 <body>
     <div id="title">Where do we send our products?</div>
-    <div id="subtitle">The map shows the orders dispatched to UK Districts or Irish counties</div>
+    <div id="subtitle">Number of orders dispatched to UK Districts or Irish counties</div>
     <div id="second-subtitle">Number of orders per product per year</div>
     
-
+<div class="grid-container">
+  
+  <div class="item3">Footer</div>
+  <div class="item5">Menu</div>
     <!-- div element which holds the map -->
     <div id="map"></div>
 </body>
