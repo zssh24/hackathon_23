@@ -14,7 +14,9 @@ if (!token || !serverHostname || !httpPath) {
 const queries = [
   /*"SELECT local_authority_district_name AS District, product_type AS `Product type`, date_trunc('year', item_dispatched_at) AS Year, COUNT(*) AS `Number of products` FROM prod.warehouse.sales_events INNER JOIN prod.warehouse.delivery_addresses ON sales_events.delivery_address_sk = delivery_addresses.sk WHERE product_type <> 'STI Test Result Set' GROUP BY 1, 2, 3 ORDER BY District",*/
 
-  "SELECT local_authority_district_name AS District, COUNT(*) AS `Number of products` FROM prod.warehouse.sales_events INNER JOIN prod.warehouse.delivery_addresses ON sales_events.delivery_address_sk = delivery_addresses.sk WHERE product_type <> 'STI Test Result Set' GROUP BY 1 ORDER BY District"
+  //"SELECT local_authority_district_name AS District, COUNT(*) AS `Number of products` FROM prod.warehouse.sales_events INNER JOIN prod.warehouse.delivery_addresses ON sales_events.delivery_address_sk = delivery_addresses.sk WHERE product_type <> 'STI Test Result Set' GROUP BY 1 ORDER BY District",
+  "SELECT CASE WHEN local_authority_district_name IS NOT NULL THEN local_authority_district_name WHEN irish_county IS NOT NULL THEN irish_county ELSE '' END AS District, COUNT(*) AS `Number of products` FROM prod.warehouse.sales_events INNER JOIN prod.warehouse.delivery_addresses ON sales_events.delivery_address_sk = delivery_addresses.sk WHERE product_type <> 'STI Test Result Set' GROUP BY local_authority_district_name, irish_county ORDER BY District;"
+
 ]
 
 const client = new DBSQLClient();

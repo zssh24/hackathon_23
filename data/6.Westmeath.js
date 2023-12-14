@@ -1,4 +1,4 @@
-var watermeathJSON = {
+var westmeathJSON = {
     "type": "FeatureCollection",
     "features": [
         {

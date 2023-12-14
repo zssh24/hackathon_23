@@ -119,8 +119,6 @@
 <script src="https://unpkg.com/@turf/turf@latest"></script>
 
 <!-- geojson files -->
-<!-- <script src="./data/London.js"></script>
-<script src="./data/Manchester.js"></script>  -->
 <script src="./data/1.Donegal.js"></script>
 <script src="./data/2.Limerick.js"></script>
 <script src="./data/3.Kildare.js"></script>
@@ -188,7 +186,7 @@
     // Function to fetch external data asynchronously
     async function fetchExternalData() {
         try {
-            const response = await fetch('total_products.json');
+            const response = await fetch('data/total_products.json');
             const data = await response.json();
             return data;
         } catch (error) {
@@ -209,13 +207,12 @@
             return polygons;
         }
 
-        polygonData.forEach(function (polygon) {
-            var polygonName = polygon.District;
+        Object.keys(polygonData).forEach(function (polygonName) {
             var data = polygonData[polygonName];
 
             console.log('Polygon Data:', data);  // Add this line for debugging
 
-            if (data.features && data.features.length > 0 && data.features[0].geometry && data.features[0].geometry.type === "Polygon") {
+            if (data.features && data.features.length > 0 && data.features[0].geometry && (data.features[0].geometry.type === "MultiPolygon" || data.features[0].geometry.type === "Polygon")) {
                 var districtData = externalData.find(item => item.District === polygonName);
                 var orderQuantity = districtData ? districtData["Number of products"] : 0;
                 var popupContent = `District: ${polygonName}<br>Total Order Quantity: ${orderQuantity}`;
@@ -236,6 +233,7 @@
 
         return polygons;
     }
+
 
     // Create polygons and popups
     var polygonData = {
@@ -270,7 +268,7 @@
     var polygons = createPolygonsAndPopups(polygonData);
 
 
-
+ 
 
 
     // layer groups
@@ -318,7 +316,7 @@
 
     //L.geoJSON(londonJSON).addTo(map)
     //L.geoJSON(manchesterJSON).addTo(map)
-    L.geoJSON(carlowJSON).addTo(map)
+    // L.geoJSON(carlowJSON).addTo(map)
 
     /*===========================================================
                             LAYER CONTROL
