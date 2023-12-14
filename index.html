@@ -132,58 +132,6 @@
     var map = L.map('map').setView([54.217, -4.558], 6);
 
 
-
-
-    /*===========================================================
-                            Databricks Queries
-    ===========================================================*/
-    
-/*     // Define queries, location of markers to be created and icon
-    const queries = [
-        {
-            name: 'Marker 1',
-            query: 'SELECT * FROM prod.warehouse.brands LIMIT 10',
-            marker: { latitude: 52.468926, longitude: -1.888867, icon: 'img/red_marker.png' },
-        }
-    ];
-
-    // define function to fetch data and create markers
-    async function fetchDataAndCreateMarkers() {
-        for (const queryInfo of queries) {
-            try {
-                const response = await fetch('https://dbc-25dae16e-9b76.cloud.databricks.com/sql/1.0/endpoints/6326b79d23570977', {
-                    method: 'POST',
-                    headers: {
-                        'Authorization': 'Bearer dapi3509b026e18ba37790d3598c5007d9b5',
-                        'Content-Type': 'application/json'
-                    },
-                    body: JSON.stringify({
-                        language: 'sql',
-                        query: queryInfo.query,
-                        context: {
-                            'warehouse_id': '6326b79d23570977',
-                            'catalog': 'prod',
-                            'schema': 'warehouse'
-                        }
-                    }),
-                });
-
-                const data = await response.json();
-                console.log(data);
-
-                // Process data and create markers
-                const { latitude, longitude } = queryInfo.marker;
-                const marker = L.marker([latitude, longitude], { icon: L.icon({ iconUrl: queryInfo.marker.icon }) })
-                    .bindPopup(`<b>${queryInfo.name}</b><br>${JSON.stringify(data)}`);
-
-                marker.addTo(map);
-            } catch (error) {
-                console.error(`Error fetching data for ${queryInfo.name}:`, error);
-            }
-        }
-    } */
-
-
     /*===========================================================
                             TILE LAYER
     ===========================================================*/
@@ -211,22 +159,40 @@
                             MARKER LAYER
     ===========================================================*/
 
-    // External data for populating popupContent
-    var externalData = {
-        'Carlow': 'Info for Carlow '
-    };
+    // Function to fetch external data asynchronously
+    async function fetchExternalData() {
+        try {
+            const response = await fetch('total_products.json');
+            const data = await response.json();
+            return data;
+        } catch (error) {
+            console.error('Error fetching external data:', error);
+            return null;
+        }
+    }
 
     // Function to create polygons and bind popups dynamically
-    function createPolygonsAndPopups(polygonData) {
+    async function createPolygonsAndPopups(polygonData) {
         var polygons = [];
 
-        Object.keys(polygonData).forEach(function (polygonName) {
+        // Fetch external data
+        const externalData = await fetchExternalData();
+
+        if (!externalData) {
+            console.error('External data not available. Exiting function.');
+            return polygons;
+        }
+
+        polygonData.forEach(function (polygon) {
+            var polygonName = polygon.District;
             var data = polygonData[polygonName];
 
             console.log('Polygon Data:', data);  // Add this line for debugging
 
             if (data.features && data.features.length > 0 && data.features[0].geometry && data.features[0].geometry.type === "Polygon") {
-                var popupContent = externalData[polygonName] || 'No additional information available';
+                var districtData = externalData.find(item => item.District === polygonName);
+                var orderQuantity = districtData ? districtData["Number of products"] : 0;
+                var popupContent = `District: ${polygonName}<br>Total Order Quantity: ${orderQuantity}`;
 
                 var polygon = L.geoJSON(data, {
                     onEachFeature: function (feature, layer) {
