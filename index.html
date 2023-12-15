@@ -1019,7 +1019,7 @@
     // Function to create polygons and bind popups dynamically
     async function fetchDataAndAddPolygons() {
         // Run function for each query defined in run_queries.js
-        const queries = ['total_products', '2014', '2015', '2016', '2017', '2018', '2019', '2020', '2021', '2022', '2023'];
+        const queries = ['total_products', 'total_products', '2014', '2015', '2016', '2017', '2018', '2019', '2020', '2021', '2022', '2023'];
 
         // Fetch external data for all queries in parallel
         const externalDataPromises = queries.map(query => fetchExternalData(query));
