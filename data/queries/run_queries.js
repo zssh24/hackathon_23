@@ -37,17 +37,17 @@ const connectOptions = {
 
 // Declare filenames for each query
 const queryFileNames = {
-  query1: 'data/queries/total_products.json',
-  query2: 'data/queries/total_products_2014.json',
-  query3: 'data/queries/total_products_2015.json',
-  query4: 'data/queries/total_products_2016.json',
-  query5: 'data/queries/total_products_2017.json',
-  query6: 'data/queries/total_products_2018.json',
-  query7: 'data/queries/total_products_2019.json',
-  query8: 'data/queries/total_products_2020.json',
-  query9: 'data/queries/total_products_2021.json',
-  query10: 'data/queries/total_products_2022.json',
-  query11: 'data/queries/total_products_2023.json'
+  query1: 'total_products.json',
+  query2: '2014.json',
+  query3: '2015.json',
+  query4: '2016.json',
+  query5: '2017.json',
+  query6: '2018.json',
+  query7: '2019.json',
+  query8: '2020.json',
+  query9: '2021.json',
+  query10: '2022.json',
+  query11: '2023.json'
 };
 
 const executeQueries = async () => {
@@ -77,10 +77,10 @@ const executeQueries = async () => {
 
         // Save results to a JSON file asynchronously using fs.promises
         const jsonResults = JSON.stringify(result, null, 2);
-        const fileName_original = queryNames[i]; // Use query name from the dictionary
-        fileName = fileName_original + '.json'
+        const fileName = queryFileNames[queryNames[i]]; // Use query value from the dictionary
         await fs.writeFile(fileName, jsonResults);
         console.log(`Query ${i + 1} results saved to: ${fileName}`);
+
       } catch (error) {
         console.log(`Error executing query: ${query}`, error);
       } finally {
