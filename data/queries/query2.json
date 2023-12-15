@@ -1,0 +1,58 @@
+[
+  {
+    "District": "Bexley",
+    "Number of products": 1
+  },
+  {
+    "District": "Buckinghamshire",
+    "Number of products": 3
+  },
+  {
+    "District": "Camden",
+    "Number of products": 2
+  },
+  {
+    "District": "Croydon",
+    "Number of products": 1
+  },
+  {
+    "District": "East Hampshire",
+    "Number of products": 1
+  },
+  {
+    "District": "Greenwich",
+    "Number of products": 1
+  },
+  {
+    "District": "Hackney",
+    "Number of products": 1
+  },
+  {
+    "District": "Hammersmith and Fulham",
+    "Number of products": 1
+  },
+  {
+    "District": "Hounslow",
+    "Number of products": 1
+  },
+  {
+    "District": "Lambeth",
+    "Number of products": 41
+  },
+  {
+    "District": "Lewisham",
+    "Number of products": 7
+  },
+  {
+    "District": "Merton",
+    "Number of products": 1
+  },
+  {
+    "District": "Southwark",
+    "Number of products": 77
+  },
+  {
+    "District": "Tower Hamlets",
+    "Number of products": 1
+  }
+]

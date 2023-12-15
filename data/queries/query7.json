@@ -1,0 +1,1502 @@
+[
+  {
+    "District": "",
+    "Number of products": 923
+  },
+  {
+    "District": "Aberdeen City",
+    "Number of products": 130
+  },
+  {
+    "District": "Aberdeenshire",
+    "Number of products": 88
+  },
+  {
+    "District": "Adur",
+    "Number of products": 33
+  },
+  {
+    "District": "Allerdale",
+    "Number of products": 37
+  },
+  {
+    "District": "Amber Valley",
+    "Number of products": 2573
+  },
+  {
+    "District": "Angus",
+    "Number of products": 33
+  },
+  {
+    "District": "Antrim and Newtownabbey",
+    "Number of products": 224
+  },
+  {
+    "District": "Ards and North Down",
+    "Number of products": 133
+  },
+  {
+    "District": "Argyll and Bute",
+    "Number of products": 32
+  },
+  {
+    "District": "Armagh City, Banbridge and Craigavon",
+    "Number of products": 207
+  },
+  {
+    "District": "Arun",
+    "Number of products": 84
+  },
+  {
+    "District": "Ashfield",
+    "Number of products": 64
+  },
+  {
+    "District": "Ashford",
+    "Number of products": 92
+  },
+  {
+    "District": "Babergh",
+    "Number of products": 68
+  },
+  {
+    "District": "Barking and Dagenham",
+    "Number of products": 165
+  },
+  {
+    "District": "Barnet",
+    "Number of products": 276
+  },
+  {
+    "District": "Barnsley",
+    "Number of products": 126
+  },
+  {
+    "District": "Barrow-in-Furness",
+    "Number of products": 41
+  },
+  {
+    "District": "Basildon",
+    "Number of products": 5904
+  },
+  {
+    "District": "Basingstoke and Deane",
+    "Number of products": 112
+  },
+  {
+    "District": "Bassetlaw",
+    "Number of products": 44
+  },
+  {
+    "District": "Bath and North East Somerset",
+    "Number of products": 196
+  },
+  {
+    "District": "Bedford",
+    "Number of products": 115
+  },
+  {
+    "District": "Belfast",
+    "Number of products": 1041
+  },
+  {
+    "District": "Bexley",
+    "Number of products": 164
+  },
+  {
+    "District": "Birmingham",
+    "Number of products": 432
+  },
+  {
+    "District": "Blaby",
+    "Number of products": 1445
+  },
+  {
+    "District": "Blackburn with Darwen",
+    "Number of products": 72
+  },
+  {
+    "District": "Blackpool",
+    "Number of products": 48
+  },
+  {
+    "District": "Blaenau Gwent",
+    "Number of products": 5
+  },
+  {
+    "District": "Bolsover",
+    "Number of products": 1117
+  },
+  {
+    "District": "Bolton",
+    "Number of products": 136
+  },
+  {
+    "District": "Boston",
+    "Number of products": 30
+  },
+  {
+    "District": "Bournemouth, Christchurch and Poole",
+    "Number of products": 355
+  },
+  {
+    "District": "Bracknell Forest",
+    "Number of products": 1235
+  },
+  {
+    "District": "Bradford",
+    "Number of products": 5998
+  },
+  {
+    "District": "Braintree",
+    "Number of products": 4175
+  },
+  {
+    "District": "Breckland",
+    "Number of products": 56
+  },
+  {
+    "District": "Brent",
+    "Number of products": 268
+  },
+  {
+    "District": "Brentwood",
+    "Number of products": 2279
+  },
+  {
+    "District": "Bridgend",
+    "Number of products": 46
+  },
+  {
+    "District": "Brighton and Hove",
+    "Number of products": 358
+  },
+  {
+    "District": "Bristol, City of",
+    "Number of products": 506
+  },
+  {
+    "District": "Broadland",
+    "Number of products": 52
+  },
+  {
+    "District": "Bromley",
+    "Number of products": 229
+  },
+  {
+    "District": "Bromsgrove",
+    "Number of products": 529
+  },
+  {
+    "District": "Broxbourne",
+    "Number of products": 963
+  },
+  {
+    "District": "Broxtowe",
+    "Number of products": 87
+  },
+  {
+    "District": "Buckinghamshire",
+    "Number of products": 465
+  },
+  {
+    "District": "Burnley",
+    "Number of products": 32
+  },
+  {
+    "District": "Bury",
+    "Number of products": 107
+  },
+  {
+    "District": "Caerphilly",
+    "Number of products": 23
+  },
+  {
+    "District": "Calderdale",
+    "Number of products": 115
+  },
+  {
+    "District": "Cambridge",
+    "Number of products": 224
+  },
+  {
+    "District": "Camden",
+    "Number of products": 348
+  },
+  {
+    "District": "Cannock Chase",
+    "Number of products": 1440
+  },
+  {
+    "District": "Canterbury",
+    "Number of products": 107
+  },
+  {
+    "District": "Cardiff",
+    "Number of products": 273
+  },
+  {
+    "District": "Carlisle",
+    "Number of products": 51
+  },
+  {
+    "District": "Carmarthenshire",
+    "Number of products": 40
+  },
+  {
+    "District": "Castle Point",
+    "Number of products": 2049
+  },
+  {
+    "District": "Causeway Coast and Glens",
+    "Number of products": 219
+  },
+  {
+    "District": "Central Bedfordshire",
+    "Number of products": 246
+  },
+  {
+    "District": "Ceredigion",
+    "Number of products": 18
+  },
+  {
+    "District": "Charnwood",
+    "Number of products": 2980
+  },
+  {
+    "District": "Chelmsford",
+    "Number of products": 5986
+  },
+  {
+    "District": "Cheltenham",
+    "Number of products": 69
+  },
+  {
+    "District": "Cherwell",
+    "Number of products": 94
+  },
+  {
+    "District": "Cheshire East",
+    "Number of products": 1096
+  },
+  {
+    "District": "Cheshire West and Chester",
+    "Number of products": 275
+  },
+  {
+    "District": "Chesterfield",
+    "Number of products": 2373
+  },
+  {
+    "District": "Chichester",
+    "Number of products": 62
+  },
+  {
+    "District": "Chorley",
+    "Number of products": 68
+  },
+  {
+    "District": "City of Edinburgh",
+    "Number of products": 269
+  },
+  {
+    "District": "City of London",
+    "Number of products": 87
+  },
+  {
+    "District": "Clackmannanshire",
+    "Number of products": 11
+  },
+  {
+    "District": "Colchester",
+    "Number of products": 8124
+  },
+  {
+    "District": "Conwy",
+    "Number of products": 27
+  },
+  {
+    "District": "Copeland",
+    "Number of products": 47
+  },
+  {
+    "District": "Cornwall",
+    "Number of products": 872
+  },
+  {
+    "District": "Cotswold",
+    "Number of products": 38
+  },
+  {
+    "District": "County Durham",
+    "Number of products": 4878
+  },
+  {
+    "District": "Coventry",
+    "Number of products": 267
+  },
+  {
+    "District": "Craven",
+    "Number of products": 14
+  },
+  {
+    "District": "Crawley",
+    "Number of products": 84
+  },
+  {
+    "District": "Croydon",
+    "Number of products": 575
+  },
+  {
+    "District": "Dacorum",
+    "Number of products": 1587
+  },
+  {
+    "District": "Darlington",
+    "Number of products": 917
+  },
+  {
+    "District": "Dartford",
+    "Number of products": 102
+  },
+  {
+    "District": "Denbighshire",
+    "Number of products": 16
+  },
+  {
+    "District": "Derby",
+    "Number of products": 3763
+  },
+  {
+    "District": "Derbyshire Dales",
+    "Number of products": 1068
+  },
+  {
+    "District": "Derry City and Strabane",
+    "Number of products": 248
+  },
+  {
+    "District": "Doncaster",
+    "Number of products": 146
+  },
+  {
+    "District": "Dorset",
+    "Number of products": 134
+  },
+  {
+    "District": "Dover",
+    "Number of products": 62
+  },
+  {
+    "District": "Dudley",
+    "Number of products": 135
+  },
+  {
+    "District": "Dumfries and Galloway",
+    "Number of products": 24
+  },
+  {
+    "District": "Dundee City",
+    "Number of products": 42
+  },
+  {
+    "District": "Ealing",
+    "Number of products": 347
+  },
+  {
+    "District": "East Ayrshire",
+    "Number of products": 21
+  },
+  {
+    "District": "East Cambridgeshire",
+    "Number of products": 43
+  },
+  {
+    "District": "East Devon",
+    "Number of products": 45
+  },
+  {
+    "District": "East Dunbartonshire",
+    "Number of products": 43
+  },
+  {
+    "District": "East Hampshire",
+    "Number of products": 72
+  },
+  {
+    "District": "East Hertfordshire",
+    "Number of products": 1533
+  },
+  {
+    "District": "East Lindsey",
+    "Number of products": 61
+  },
+  {
+    "District": "East Lothian",
+    "Number of products": 35
+  },
+  {
+    "District": "East Renfrewshire",
+    "Number of products": 27
+  },
+  {
+    "District": "East Riding of Yorkshire",
+    "Number of products": 153
+  },
+  {
+    "District": "East Staffordshire",
+    "Number of products": 836
+  },
+  {
+    "District": "East Suffolk",
+    "Number of products": 160
+  },
+  {
+    "District": "Eastbourne",
+    "Number of products": 27
+  },
+  {
+    "District": "Eastleigh",
+    "Number of products": 71
+  },
+  {
+    "District": "Eden",
+    "Number of products": 24
+  },
+  {
+    "District": "Elmbridge",
+    "Number of products": 109
+  },
+  {
+    "District": "Enfield",
+    "Number of products": 220
+  },
+  {
+    "District": "Epping Forest",
+    "Number of products": 3851
+  },
+  {
+    "District": "Epsom and Ewell",
+    "Number of products": 73
+  },
+  {
+    "District": "Erewash",
+    "Number of products": 2539
+  },
+  {
+    "District": "Exeter",
+    "Number of products": 85
+  },
+  {
+    "District": "Falkirk",
+    "Number of products": 23
+  },
+  {
+    "District": "Fareham",
+    "Number of products": 58
+  },
+  {
+    "District": "Fenland",
+    "Number of products": 47
+  },
+  {
+    "District": "Fermanagh and Omagh",
+    "Number of products": 116
+  },
+  {
+    "District": "Fife",
+    "Number of products": 86
+  },
+  {
+    "District": "Flintshire",
+    "Number of products": 51
+  },
+  {
+    "District": "Folkestone and Hythe",
+    "Number of products": 63
+  },
+  {
+    "District": "Forest of Dean",
+    "Number of products": 30
+  },
+  {
+    "District": "Fylde",
+    "Number of products": 27
+  },
+  {
+    "District": "Gateshead",
+    "Number of products": 579
+  },
+  {
+    "District": "Gedling",
+    "Number of products": 80
+  },
+  {
+    "District": "Glasgow City",
+    "Number of products": 321
+  },
+  {
+    "District": "Gloucester",
+    "Number of products": 60
+  },
+  {
+    "District": "Gosport",
+    "Number of products": 44
+  },
+  {
+    "District": "Gravesham",
+    "Number of products": 77
+  },
+  {
+    "District": "Great Yarmouth",
+    "Number of products": 45
+  },
+  {
+    "District": "Greenwich",
+    "Number of products": 373
+  },
+  {
+    "District": "Guildford",
+    "Number of products": 126
+  },
+  {
+    "District": "Gwynedd",
+    "Number of products": 57
+  },
+  {
+    "District": "Hackney",
+    "Number of products": 407
+  },
+  {
+    "District": "Halton",
+    "Number of products": 427
+  },
+  {
+    "District": "Hambleton",
+    "Number of products": 20
+  },
+  {
+    "District": "Hammersmith and Fulham",
+    "Number of products": 362
+  },
+  {
+    "District": "Harborough",
+    "Number of products": 999
+  },
+  {
+    "District": "Haringey",
+    "Number of products": 321
+  },
+  {
+    "District": "Harlow",
+    "Number of products": 3373
+  },
+  {
+    "District": "Harrogate",
+    "Number of products": 40
+  },
+  {
+    "District": "Harrow",
+    "Number of products": 135
+  },
+  {
+    "District": "Hart",
+    "Number of products": 87
+  },
+  {
+    "District": "Hartlepool",
+    "Number of products": 28
+  },
+  {
+    "District": "Hastings",
+    "Number of products": 32
+  },
+  {
+    "District": "Havant",
+    "Number of products": 63
+  },
+  {
+    "District": "Havering",
+    "Number of products": 298
+  },
+  {
+    "District": "Herefordshire, County of",
+    "Number of products": 694
+  },
+  {
+    "District": "Hertsmere",
+    "Number of products": 1100
+  },
+  {
+    "District": "High Peak",
+    "Number of products": 1625
+  },
+  {
+    "District": "Highland",
+    "Number of products": 88
+  },
+  {
+    "District": "Hillingdon",
+    "Number of products": 8691
+  },
+  {
+    "District": "Hinckley and Bosworth",
+    "Number of products": 1031
+  },
+  {
+    "District": "Horsham",
+    "Number of products": 102
+  },
+  {
+    "District": "Hounslow",
+    "Number of products": 245
+  },
+  {
+    "District": "Huntingdonshire",
+    "Number of products": 132
+  },
+  {
+    "District": "Hyndburn",
+    "Number of products": 36
+  },
+  {
+    "District": "Inverclyde",
+    "Number of products": 23
+  },
+  {
+    "District": "Ipswich",
+    "Number of products": 149
+  },
+  {
+    "District": "Isle of Anglesey",
+    "Number of products": 17
+  },
+  {
+    "District": "Isle of Wight",
+    "Number of products": 31
+  },
+  {
+    "District": "Isles of Scilly",
+    "Number of products": 6
+  },
+  {
+    "District": "Islington",
+    "Number of products": 369
+  },
+  {
+    "District": "Kensington and Chelsea",
+    "Number of products": 226
+  },
+  {
+    "District": "King's Lynn and West Norfolk",
+    "Number of products": 63
+  },
+  {
+    "District": "Kingston upon Hull, City of",
+    "Number of products": 148
+  },
+  {
+    "District": "Kingston upon Thames",
+    "Number of products": 121
+  },
+  {
+    "District": "Kirklees",
+    "Number of products": 228
+  },
+  {
+    "District": "Knowsley",
+    "Number of products": 941
+  },
+  {
+    "District": "Lambeth",
+    "Number of products": 1413
+  },
+  {
+    "District": "Lancaster",
+    "Number of products": 88
+  },
+  {
+    "District": "Leeds",
+    "Number of products": 718
+  },
+  {
+    "District": "Leicester",
+    "Number of products": 6146
+  },
+  {
+    "District": "Lewes",
+    "Number of products": 30
+  },
+  {
+    "District": "Lewisham",
+    "Number of products": 516
+  },
+  {
+    "District": "Lichfield",
+    "Number of products": 1013
+  },
+  {
+    "District": "Lincoln",
+    "Number of products": 102
+  },
+  {
+    "District": "Lisburn and Castlereagh",
+    "Number of products": 163
+  },
+  {
+    "District": "Liverpool",
+    "Number of products": 426
+  },
+  {
+    "District": "Luton",
+    "Number of products": 173
+  },
+  {
+    "District": "Maidstone",
+    "Number of products": 110
+  },
+  {
+    "District": "Maldon",
+    "Number of products": 1540
+  },
+  {
+    "District": "Malvern Hills",
+    "Number of products": 350
+  },
+  {
+    "District": "Manchester",
+    "Number of products": 1022
+  },
+  {
+    "District": "Mansfield",
+    "Number of products": 44
+  },
+  {
+    "District": "Medway",
+    "Number of products": 3247
+  },
+  {
+    "District": "Melton",
+    "Number of products": 602
+  },
+  {
+    "District": "Mendip",
+    "Number of products": 47
+  },
+  {
+    "District": "Merthyr Tydfil",
+    "Number of products": 15
+  },
+  {
+    "District": "Merton",
+    "Number of products": 208
+  },
+  {
+    "District": "Mid Devon",
+    "Number of products": 39
+  },
+  {
+    "District": "Mid Suffolk",
+    "Number of products": 81
+  },
+  {
+    "District": "Mid Sussex",
+    "Number of products": 118
+  },
+  {
+    "District": "Mid Ulster",
+    "Number of products": 131
+  },
+  {
+    "District": "Mid and East Antrim",
+    "Number of products": 215
+  },
+  {
+    "District": "Middlesbrough",
+    "Number of products": 62
+  },
+  {
+    "District": "Midlothian",
+    "Number of products": 28
+  },
+  {
+    "District": "Milton Keynes",
+    "Number of products": 230
+  },
+  {
+    "District": "Mole Valley",
+    "Number of products": 65
+  },
+  {
+    "District": "Monmouthshire",
+    "Number of products": 40
+  },
+  {
+    "District": "Moray",
+    "Number of products": 34
+  },
+  {
+    "District": "Na h-Eileanan Siar",
+    "Number of products": 3
+  },
+  {
+    "District": "Neath Port Talbot",
+    "Number of products": 21
+  },
+  {
+    "District": "New Forest",
+    "Number of products": 89
+  },
+  {
+    "District": "Newark and Sherwood",
+    "Number of products": 54
+  },
+  {
+    "District": "Newcastle upon Tyne",
+    "Number of products": 286
+  },
+  {
+    "District": "Newcastle-under-Lyme",
+    "Number of products": 843
+  },
+  {
+    "District": "Newham",
+    "Number of products": 340
+  },
+  {
+    "District": "Newport",
+    "Number of products": 55
+  },
+  {
+    "District": "Newry, Mourne and Down",
+    "Number of products": 176
+  },
+  {
+    "District": "North Ayrshire",
+    "Number of products": 18
+  },
+  {
+    "District": "North Devon",
+    "Number of products": 32
+  },
+  {
+    "District": "North East Derbyshire",
+    "Number of products": 1549
+  },
+  {
+    "District": "North East Lincolnshire",
+    "Number of products": 61
+  },
+  {
+    "District": "North Hertfordshire",
+    "Number of products": 1322
+  },
+  {
+    "District": "North Kesteven",
+    "Number of products": 80
+  },
+  {
+    "District": "North Lanarkshire",
+    "Number of products": 95
+  },
+  {
+    "District": "North Lincolnshire",
+    "Number of products": 68
+  },
+  {
+    "District": "North Norfolk",
+    "Number of products": 52
+  },
+  {
+    "District": "North Northamptonshire",
+    "Number of products": 193
+  },
+  {
+    "District": "North Somerset",
+    "Number of products": 119
+  },
+  {
+    "District": "North Tyneside",
+    "Number of products": 99
+  },
+  {
+    "District": "North Warwickshire",
+    "Number of products": 21
+  },
+  {
+    "District": "North West Leicestershire",
+    "Number of products": 1202
+  },
+  {
+    "District": "Northumberland",
+    "Number of products": 114
+  },
+  {
+    "District": "Norwich",
+    "Number of products": 140
+  },
+  {
+    "District": "Nottingham",
+    "Number of products": 404
+  },
+  {
+    "District": "Nuneaton and Bedworth",
+    "Number of products": 61
+  },
+  {
+    "District": "Oadby and Wigston",
+    "Number of products": 770
+  },
+  {
+    "District": "Oldham",
+    "Number of products": 98
+  },
+  {
+    "District": "Orkney Islands",
+    "Number of products": 5
+  },
+  {
+    "District": "Oxford",
+    "Number of products": 190
+  },
+  {
+    "District": "Pembrokeshire",
+    "Number of products": 22
+  },
+  {
+    "District": "Pendle",
+    "Number of products": 38
+  },
+  {
+    "District": "Perth and Kinross",
+    "Number of products": 36
+  },
+  {
+    "District": "Peterborough",
+    "Number of products": 125
+  },
+  {
+    "District": "Plymouth",
+    "Number of products": 170
+  },
+  {
+    "District": "Portsmouth",
+    "Number of products": 192
+  },
+  {
+    "District": "Powys",
+    "Number of products": 110
+  },
+  {
+    "District": "Preston",
+    "Number of products": 95
+  },
+  {
+    "District": "Reading",
+    "Number of products": 322
+  },
+  {
+    "District": "Redbridge",
+    "Number of products": 235
+  },
+  {
+    "District": "Redcar and Cleveland",
+    "Number of products": 44
+  },
+  {
+    "District": "Redditch",
+    "Number of products": 570
+  },
+  {
+    "District": "Reigate and Banstead",
+    "Number of products": 101
+  },
+  {
+    "District": "Renfrewshire",
+    "Number of products": 57
+  },
+  {
+    "District": "Rhondda Cynon Taf",
+    "Number of products": 65
+  },
+  {
+    "District": "Ribble Valley",
+    "Number of products": 47
+  },
+  {
+    "District": "Richmond upon Thames",
+    "Number of products": 145
+  },
+  {
+    "District": "Richmondshire",
+    "Number of products": 23
+  },
+  {
+    "District": "Rochdale",
+    "Number of products": 93
+  },
+  {
+    "District": "Rochford",
+    "Number of products": 1665
+  },
+  {
+    "District": "Rossendale",
+    "Number of products": 40
+  },
+  {
+    "District": "Rother",
+    "Number of products": 29
+  },
+  {
+    "District": "Rotherham",
+    "Number of products": 107
+  },
+  {
+    "District": "Rugby",
+    "Number of products": 49
+  },
+  {
+    "District": "Runnymede",
+    "Number of products": 111
+  },
+  {
+    "District": "Rushcliffe",
+    "Number of products": 116
+  },
+  {
+    "District": "Rushmoor",
+    "Number of products": 92
+  },
+  {
+    "District": "Rutland",
+    "Number of products": 357
+  },
+  {
+    "District": "Ryedale",
+    "Number of products": 22
+  },
+  {
+    "District": "Salford",
+    "Number of products": 462
+  },
+  {
+    "District": "Sandwell",
+    "Number of products": 127
+  },
+  {
+    "District": "Scarborough",
+    "Number of products": 35
+  },
+  {
+    "District": "Scottish Borders",
+    "Number of products": 28
+  },
+  {
+    "District": "Sedgemoor",
+    "Number of products": 47
+  },
+  {
+    "District": "Sefton",
+    "Number of products": 115
+  },
+  {
+    "District": "Selby",
+    "Number of products": 26
+  },
+  {
+    "District": "Sevenoaks",
+    "Number of products": 87
+  },
+  {
+    "District": "Sheffield",
+    "Number of products": 477
+  },
+  {
+    "District": "Shetland Islands",
+    "Number of products": 6
+  },
+  {
+    "District": "Shropshire",
+    "Number of products": 3320
+  },
+  {
+    "District": "Slough",
+    "Number of products": 1087
+  },
+  {
+    "District": "Solihull",
+    "Number of products": 68
+  },
+  {
+    "District": "Somerset West and Taunton",
+    "Number of products": 63
+  },
+  {
+    "District": "South Ayrshire",
+    "Number of products": 26
+  },
+  {
+    "District": "South Cambridgeshire",
+    "Number of products": 110
+  },
+  {
+    "District": "South Derbyshire",
+    "Number of products": 1834
+  },
+  {
+    "District": "South Gloucestershire",
+    "Number of products": 184
+  },
+  {
+    "District": "South Hams",
+    "Number of products": 33
+  },
+  {
+    "District": "South Holland",
+    "Number of products": 42
+  },
+  {
+    "District": "South Kesteven",
+    "Number of products": 76
+  },
+  {
+    "District": "South Lakeland",
+    "Number of products": 39
+  },
+  {
+    "District": "South Lanarkshire",
+    "Number of products": 64
+  },
+  {
+    "District": "South Norfolk",
+    "Number of products": 85
+  },
+  {
+    "District": "South Oxfordshire",
+    "Number of products": 128
+  },
+  {
+    "District": "South Ribble",
+    "Number of products": 64
+  },
+  {
+    "District": "South Somerset",
+    "Number of products": 79
+  },
+  {
+    "District": "South Staffordshire",
+    "Number of products": 985
+  },
+  {
+    "District": "South Tyneside",
+    "Number of products": 77
+  },
+  {
+    "District": "Southampton",
+    "Number of products": 201
+  },
+  {
+    "District": "Southend-on-Sea",
+    "Number of products": 221
+  },
+  {
+    "District": "Southwark",
+    "Number of products": 1525
+  },
+  {
+    "District": "Spelthorne",
+    "Number of products": 108
+  },
+  {
+    "District": "St Albans",
+    "Number of products": 1486
+  },
+  {
+    "District": "St. Helens",
+    "Number of products": 85
+  },
+  {
+    "District": "Stafford",
+    "Number of products": 872
+  },
+  {
+    "District": "Staffordshire Moorlands",
+    "Number of products": 442
+  },
+  {
+    "District": "Stevenage",
+    "Number of products": 1034
+  },
+  {
+    "District": "Stirling",
+    "Number of products": 34
+  },
+  {
+    "District": "Stockport",
+    "Number of products": 286
+  },
+  {
+    "District": "Stockton-on-Tees",
+    "Number of products": 79
+  },
+  {
+    "District": "Stoke-on-Trent",
+    "Number of products": 188
+  },
+  {
+    "District": "Stratford-on-Avon",
+    "Number of products": 70
+  },
+  {
+    "District": "Stroud",
+    "Number of products": 43
+  },
+  {
+    "District": "Sunderland",
+    "Number of products": 144
+  },
+  {
+    "District": "Surrey Heath",
+    "Number of products": 70
+  },
+  {
+    "District": "Sutton",
+    "Number of products": 149
+  },
+  {
+    "District": "Swale",
+    "Number of products": 84
+  },
+  {
+    "District": "Swansea",
+    "Number of products": 74
+  },
+  {
+    "District": "Swindon",
+    "Number of products": 81
+  },
+  {
+    "District": "Tameside",
+    "Number of products": 184
+  },
+  {
+    "District": "Tamworth",
+    "Number of products": 379
+  },
+  {
+    "District": "Tandridge",
+    "Number of products": 73
+  },
+  {
+    "District": "Teignbridge",
+    "Number of products": 48
+  },
+  {
+    "District": "Telford and Wrekin",
+    "Number of products": 5352
+  },
+  {
+    "District": "Tendring",
+    "Number of products": 3304
+  },
+  {
+    "District": "Test Valley",
+    "Number of products": 71
+  },
+  {
+    "District": "Tewkesbury",
+    "Number of products": 39
+  },
+  {
+    "District": "Thanet",
+    "Number of products": 88
+  },
+  {
+    "District": "Three Rivers",
+    "Number of products": 898
+  },
+  {
+    "District": "Thurrock",
+    "Number of products": 175
+  },
+  {
+    "District": "Tonbridge and Malling",
+    "Number of products": 91
+  },
+  {
+    "District": "Torbay",
+    "Number of products": 39
+  },
+  {
+    "District": "Torfaen",
+    "Number of products": 15
+  },
+  {
+    "District": "Torridge",
+    "Number of products": 19
+  },
+  {
+    "District": "Tower Hamlets",
+    "Number of products": 590
+  },
+  {
+    "District": "Trafford",
+    "Number of products": 206
+  },
+  {
+    "District": "Tunbridge Wells",
+    "Number of products": 67
+  },
+  {
+    "District": "Uttlesford",
+    "Number of products": 2044
+  },
+  {
+    "District": "Vale of Glamorgan",
+    "Number of products": 59
+  },
+  {
+    "District": "Vale of White Horse",
+    "Number of products": 97
+  },
+  {
+    "District": "Wakefield",
+    "Number of products": 178
+  },
+  {
+    "District": "Walsall",
+    "Number of products": 111
+  },
+  {
+    "District": "Waltham Forest",
+    "Number of products": 249
+  },
+  {
+    "District": "Wandsworth",
+    "Number of products": 573
+  },
+  {
+    "District": "Warrington",
+    "Number of products": 752
+  },
+  {
+    "District": "Warwick",
+    "Number of products": 100
+  },
+  {
+    "District": "Watford",
+    "Number of products": 1183
+  },
+  {
+    "District": "Waverley",
+    "Number of products": 75
+  },
+  {
+    "District": "Wealden",
+    "Number of products": 39
+  },
+  {
+    "District": "Welwyn Hatfield",
+    "Number of products": 1607
+  },
+  {
+    "District": "West Berkshire",
+    "Number of products": 170
+  },
+  {
+    "District": "West Devon",
+    "Number of products": 11
+  },
+  {
+    "District": "West Dunbartonshire",
+    "Number of products": 23
+  },
+  {
+    "District": "West Lancashire",
+    "Number of products": 56
+  },
+  {
+    "District": "West Lindsey",
+    "Number of products": 44
+  },
+  {
+    "District": "West Lothian",
+    "Number of products": 36
+  },
+  {
+    "District": "West Northamptonshire",
+    "Number of products": 261
+  },
+  {
+    "District": "West Oxfordshire",
+    "Number of products": 86
+  },
+  {
+    "District": "West Suffolk",
+    "Number of products": 161
+  },
+  {
+    "District": "Westminster",
+    "Number of products": 422
+  },
+  {
+    "District": "Wigan",
+    "Number of products": 179
+  },
+  {
+    "District": "Wiltshire",
+    "Number of products": 194
+  },
+  {
+    "District": "Winchester",
+    "Number of products": 77
+  },
+  {
+    "District": "Windsor and Maidenhead",
+    "Number of products": 1417
+  },
+  {
+    "District": "Wirral",
+    "Number of products": 136
+  },
+  {
+    "District": "Woking",
+    "Number of products": 73
+  },
+  {
+    "District": "Wokingham",
+    "Number of products": 213
+  },
+  {
+    "District": "Wolverhampton",
+    "Number of products": 193
+  },
+  {
+    "District": "Worcester",
+    "Number of products": 1154
+  },
+  {
+    "District": "Worthing",
+    "Number of products": 48
+  },
+  {
+    "District": "Wrexham",
+    "Number of products": 71
+  },
+  {
+    "District": "Wychavon",
+    "Number of products": 643
+  },
+  {
+    "District": "Wyre",
+    "Number of products": 60
+  },
+  {
+    "District": "Wyre Forest",
+    "Number of products": 436
+  },
+  {
+    "District": "York",
+    "Number of products": 102
+  }
+]

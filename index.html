@@ -562,38 +562,38 @@
     ===========================================================*/
 
     // Function to fetch external data asynchronously
-    async function fetchExternalData() {
+    async function fetchExternalData(filename) {
         try {
-            const response = await fetch('data/total_products.json');
+            const response = await fetch(`data/queries/${filename}.json`); 
             const data = await response.json();
             return data;
         } catch (error) {
-            console.error('Error fetching external data:', error);
+            console.error(`Error fetching external data for ${filename}:`, error);
             return null;
         }
     }
 
     // Function to create polygons and bind popups dynamically
-    async function createPolygonsAndPopups(polygonData) {
-        var polygons = [];
+    async function createPolygonsAndPopups(polygonData, filename) {
+        var polygonLayerGroup = L.layerGroup(); // Create a layer group for polygons
 
         // Fetch external data
-        const externalData = await fetchExternalData();
+        const externalData = await fetchExternalData(filename);
 
         if (!externalData) {
             console.error('External data not available. Exiting function.');
-            return polygons;
+            return polygonLayerGroup; // Return an empty layer group
         }
 
         Object.keys(polygonData).forEach(function (polygonName) {
             var data = polygonData[polygonName];
 
-            console.log('Polygon Data:', data);  // Add this line for debugging
+            //console.log('Polygon Data:', data);  // Add this line for debugging
 
             if (data.features && data.features.length > 0 && data.features[0].geometry && (data.features[0].geometry.type === "MultiPolygon" || data.features[0].geometry.type === "Polygon")) {
                 var districtData = externalData.find(item => item.District === polygonName);
                 var orderQuantity = districtData ? districtData["Number of products"] : 0;
-                var popupContent = `District: ${polygonName}<br>Total Order Quantity: ${orderQuantity}`;
+                var popupContent = `District: ${polygonName}<br>Order Quantity: ${orderQuantity}`;
 
                 var polygon = L.geoJSON(data, {
                     onEachFeature: function (feature, layer) {
@@ -602,16 +602,13 @@
                     }
                 });
 
-                // Add polygon to map
-                polygon.addTo(map);
-
-                polygons.push(polygon);
+                // Add polygon to the layer group
+                polygonLayerGroup.addLayer(polygon);
             }
         });
 
-        return polygons;
+        return polygonLayerGroup;
     }
-
 
     // Create polygons and popups
     var polygonData = {
@@ -1017,6 +1014,60 @@
         'York': yorkJSON
     };
 
-    var polygons = createPolygonsAndPopups(polygonData);
+    // Function to fetch data, create polygons, and add them to the map
+    async function fetchDataAndAddPolygons() {
+        // Run function for each query defined in run_queries.js
+        var total_order_polygons = await createPolygonsAndPopups(polygonData, 'query1');
+        var orders_2014_polygons = await createPolygonsAndPopups(polygonData, 'query2');
+        var orders_2015_polygons = await createPolygonsAndPopups(polygonData, 'query3');
+        var orders_2016_polygons = await createPolygonsAndPopups(polygonData, 'query4');
+        var orders_2017_polygons = await createPolygonsAndPopups(polygonData, 'query5');
+        var orders_2018_polygons = await createPolygonsAndPopups(polygonData, 'query6');
+        var orders_2019_polygons = await createPolygonsAndPopups(polygonData, 'query7');
+        var orders_2020_polygons = await createPolygonsAndPopups(polygonData, 'query8');
+        var orders_2021_polygons = await createPolygonsAndPopups(polygonData, 'query9');
+        var orders_2022_polygons = await createPolygonsAndPopups(polygonData, 'query10');
+        var orders_2023_polygons = await createPolygonsAndPopups(polygonData, 'query11');
+
+        // Add the polygon layers to the map
+        total_order_polygons.addTo(map);
+        orders_2014_polygons.addTo(map);
+        orders_2015_polygons.addTo(map);
+        orders_2016_polygons.addTo(map);
+        orders_2017_polygons.addTo(map);
+        orders_2018_polygons.addTo(map);
+        orders_2019_polygons.addTo(map);
+        orders_2020_polygons.addTo(map);
+        orders_2021_polygons.addTo(map);
+        orders_2022_polygons.addTo(map);
+        orders_2023_polygons.addTo(map);
+
+        // Layer control
+        var baseMaps = {
+            "OpenStreetMap": osm,
+            "OpenStreetMap.HOT": osmHOT
+        };
+
+        var overlayMaps = {
+            "Total Orders": total_order_polygons,
+            "2014": total_order_polygons,
+            "2015": total_order_polygons,
+            "2016": total_order_polygons,
+            "2017": total_order_polygons,
+            "2018": total_order_polygons,
+            "2019": total_order_polygons,
+            "2020": total_order_polygons,
+            "2021": total_order_polygons,
+            "2022": total_order_polygons,
+            "2023": total_order_polygons
+        };
+
+        var layerControl = L.control.layers(baseMaps, overlayMaps, { collapsed: false, autoZIndex: true }).addTo(map);
+
+    }
+
+
+    fetchDataAndAddPolygons();
+
 
 </script>

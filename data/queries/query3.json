@@ -1,0 +1,34 @@
+[
+  {
+    "District": "Barnet",
+    "Number of products": 1
+  },
+  {
+    "District": "Croydon",
+    "Number of products": 3
+  },
+  {
+    "District": "Elmbridge",
+    "Number of products": 1
+  },
+  {
+    "District": "Lambeth",
+    "Number of products": 3644
+  },
+  {
+    "District": "Lewisham",
+    "Number of products": 5
+  },
+  {
+    "District": "Manchester",
+    "Number of products": 1
+  },
+  {
+    "District": "Southampton",
+    "Number of products": 1
+  },
+  {
+    "District": "Southwark",
+    "Number of products": 3913
+  }
+]
